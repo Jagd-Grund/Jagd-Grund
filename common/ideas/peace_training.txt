@@ -1,0 +1,44 @@
+ideas = {
+	country = {
+		peace_training = {
+		
+			allowed = { always = yes }
+			
+			cancel = { has_war = yes }
+
+			removal_cost = -1
+			
+			picture = ast_volunteer_defence_corps
+			
+			modifier = {
+                training_time_army_factor = -0.20
+                air_accidents_factor = -2
+                naval_accidents_chance = -2
+
+				experience_gain_army = 0.2
+				experience_gain_navy = 0.2
+				experience_gain_air = 0.2
+
+				grand_battleplan_mastery_gain_factor = 0.25
+				mass_assault_mastery_gain_factor = 0.25
+				new_mobile_warfare_mastery_gain_factor = 0.25
+				superior_firepower_mastery_gain_factor = 0.25
+				new_strategic_destruction_mastery_gain_factor = 0.25
+				new_battlefield_support_mastery_gain_factor = 0.25
+				new_operational_integrity_mastery_gain_factor = 0.25
+				new_base_strike_mastery_gain_factor = 0.25
+				new_fleet_in_being_mastery_gain_factor = 0.25
+				new_convoy_raiding_mastery_gain_factor = 0.25
+
+
+				army_fuel_consumption_factor = -0.99
+				air_fuel_consumption_factor = -0.99
+				navy_fuel_consumption_factor = -0.99
+				send_volunteer_divisions_required = -0.999
+
+				attrition = -1.0
+				supply_consumption_factor = -1.0
+			}
+		}
+	}
+}
