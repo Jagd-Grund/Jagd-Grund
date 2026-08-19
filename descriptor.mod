@@ -5,7 +5,7 @@ tags={
 	"Fixes"
 	"Gameplay"
 }
-name="Fire and Armor -dev"
+name="JagdGrund -dev"
 picture="thumbnail.png"
 supported_version="1.18.*"
 remote_file_id="3734045224"
