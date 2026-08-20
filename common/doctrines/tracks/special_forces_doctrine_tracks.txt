@@ -1,0 +1,35 @@
+special_forces_first = {
+    name = DOCTRINE_TRACK_SPECIAL_FORCES_FIRST
+    background = "GFX_grand_battleplan_bg"
+    icon = "GFX_doctrine_milestone_infantry_land"
+    icon_frame = "GFX_doctrine_decor_land"
+    mastery = {
+        multiplier = 1.0
+        categories = {
+            category_mountaineers
+            category_marines
+            category_marines_and_amphibious
+            category_paratroopers
+            category_rangers
+            category_special_forces
+        }
+    }
+}
+
+special_forces_second = {
+    name = DOCTRINE_TRACK_SPECIAL_FORCES_SECOND
+    background = "GFX_grand_battleplan_bg"
+    icon = "GFX_doctrine_milestone_operations_land"
+    icon_frame = "GFX_doctrine_decor_land"
+    mastery = {
+        multiplier = 1.0
+        categories = {
+            category_mountaineers
+            category_marines
+            category_marines_and_amphibious
+            category_paratroopers
+            category_rangers
+            category_special_forces
+        }
+    }
+}
