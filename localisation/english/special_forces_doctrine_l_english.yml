@@ -1,0 +1,10 @@
+﻿l_english:
+ special_forces_doctrine_folder:0 "Special Forces"
+
+ DOCTRINE_TRACK_SPECIAL_FORCES_FIRST:0 "Light Infantry Specialists"
+ DOCTRINE_TRACK_SPECIAL_FORCES_SECOND:0 "Airborne & Assault Specialists"
+
+ GRAND_DOCTRINE_SPECIAL_FORCES_QUANTITY:0 "Special Forces Quantity"
+ GRAND_DOCTRINE_SPECIAL_FORCES_QUANTITY_DESC:0 "Focuses on fielding a greater number of special forces battalions, expanding our organisational capacity for elite troops."
+ GRAND_DOCTRINE_SPECIAL_FORCES_QUALITY:0 "Special Forces Quality"
+ GRAND_DOCTRINE_SPECIAL_FORCES_QUALITY_DESC:0 "Focuses on the quality and combat effectiveness of our special forces, honing them into a smaller but far more capable elite."

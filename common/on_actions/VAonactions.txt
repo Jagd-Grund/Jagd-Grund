@@ -54,6 +54,14 @@ on_actions = {
 				amount = 5
 				track = heavy_aircraft
 			}
+			add_mastery = {
+				amount = 5
+				track = special_forces_first
+			}
+			add_mastery = {
+				amount = 5
+				track = special_forces_second
+			}
 		}
 	}
 	on_ruling_party_change = {
