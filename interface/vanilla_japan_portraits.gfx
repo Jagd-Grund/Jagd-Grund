@@ -1,0 +1,758 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_1"
+		texturefile = "gfx/leaders/JAP/Portrait_Japan_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_3"
+		texturefile = "gfx/leaders/JAP/Portrait_Japan_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_4"
+		texturefile = "gfx/leaders/JAP/Portrait_Japan_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Japan_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/idea_JAP_generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_abe_isoo"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_abe_isoo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_abe_isoo_smalll"
+		texturefile = "gfx/interface/ideas/portrait_JAP_abe_isoo_smalll.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_adachi_kenzo"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_adachi_kenzo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_adachi_kenzo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_adachi_kenzo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_akira_kurosawa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_akira_kurosawa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_asaichi_isobe"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_asaichi_isobe.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_asaichi_isobe_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_asaichi_isobe_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_bin_akao_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_bin_akao_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_chikuhei_nakajima_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_chikuhei_nakajima_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_chiune_sugihara_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_chiune_sugihara_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_chuichi_nagumo"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_chuichi_nagumo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_chuichi_nagumo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_chuichi_nagumo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_hirohito_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_emperor_hirohito_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_hirohito_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_emperor_hirohito_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_nobuhito"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_emperor_nobuhito.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_nobuhito_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_emperor_nobuhito_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_nobuhito_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_emperor_nobuhito_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_yasuhito"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_emperor_yasuhito.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_yasuhito_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_emperor_yasuhito_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_emperor_yasuhito_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_emperor_yasuhito_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_empress_nagako"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_empress_nagako.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_empress_nagako_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_empress_nagako_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_fukumoto_kazuo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_fukumoto_kazuo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_fumimaro_konoe"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_fumimaro_konoe.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_fumimaro_konoe_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_fumimaro_konoe_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_fumimaro_konoe_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_fumimaro_konoe_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_gempo_yamamoto_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_gempo_yamamoto_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_genki_abe_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_genki_abe_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_giro_senoo"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_giro_senoo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_giro_senoo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_giro_senoo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_gotaro_ogawa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_gotaro_ogawa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hajime_kawakami_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hajime_kawakami_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hakamada_satomi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hakamada_satomi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_harukichi_shimoi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_harukichi_shimoi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hayao_tada"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_hayao_tada.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hayao_tada_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hayao_tada_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_heisuke_yanagawa_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_heisuke_yanagawa_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_heisuke_yanagawa_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_heisuke_yanagawa_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hideki_tojo"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_hideki_tojo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hideki_tojo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hideki_tojo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hideki_yukawa"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_hideki_yukawa.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hideo_itokawa"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_hideo_itokawa.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hideo_iwakuro"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_hideo_iwakuro.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hideo_iwakuro_scientist"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_hideo_iwakuro_scientist.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hideo_iwakuro_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hideo_iwakuro_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hideo_shima_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hideo_shima_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hino_kumazo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hino_kumazo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hiratsuka_raicho_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hiratsuka_raicho_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hiroshi_oshima_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hiroshi_oshima_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hisaichi_aso_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hisaichi_aso_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hitoshi_yamakawa"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_hitoshi_yamakawa.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hitoshi_yamakawa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hitoshi_yamakawa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_hotsumi_ozaki_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_hotsumi_ozaki_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_ichikawa_fusae_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_ichikawa_fusae_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_ichiro_hatoyama"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_ichiro_hatoyama.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_ichiro_hatoyama_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_ichiro_hatoyama_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_isamu_cho"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_isamu_cho.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_isamu_cho_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_isamu_cho_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_isamu_cho_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_isamu_cho_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_isoroku_yamamoto_scientist"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_isoroku_yamamoto_scientist.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_jinzaburo_masaki"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_jinzaburo_masaki.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_jinzaburo_masaki_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_jinzaburo_masaki_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_jinzaburo_masaki_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_jinzaburo_masaki_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_jiro_horikoshi"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_jiro_horikoshi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_jotaro_watanabe_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_jotaro_watanabe_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kanin_kotohito"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_kanin_kotohito.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kanin_kotohito_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kanin_kotohito_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kanson_arahata"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_kanson_arahata.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kanson_arahata_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kanson_arahata_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kazushige_ugaki"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_kazushige_ugaki.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kazushige_ugaki_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kazushige_ugaki_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_keiji_fukuda"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_keiji_fukuda.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_keisuke_okada"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_keisuke_okada.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_keisuke_okada_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_keisuke_okada_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kenjiro_matsumoto_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kenjiro_matsumoto_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kiichiro_hiranuma_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kiichiro_hiranuma_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kijiro_nambu"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_kijiro_nambu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kingoro_hashimoto"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_kingoro_hashimoto.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kingoro_hashimoto_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kingoro_hashimoto_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kingoro_hashimoto_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kingoro_hashimoto_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kiyosada_koda"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_kiyosada_koda.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kiyosada_koda_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kiyosada_koda_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_koichi_kido_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_koichi_kido_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kojiro_fukushi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kojiro_fukushi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_koki_hirota"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_koki_hirota.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_koki_hirota_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_koki_hirota_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_komakichi_matsuoka_imprisoned"
+		texturefile = "gfx/interface/ideas/portrait_JAP_komakichi_matsuoka_imprisoned.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_komakichi_matsuoka_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_komakichi_matsuoka_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_koyata_iwasaki_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_koyata_iwasaki_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kozo_sasaki_imprisoned"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kozo_sasaki_imprisoned.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_kozo_sasaki_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_kozo_sasaki_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_machida_chuuji"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_machida_chuuji.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_machida_chuuji_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_machida_chuuji_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masafumi_arima"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_masafumi_arima.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masafumi_arima_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_masafumi_arima_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masakazu_kawabe"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_masakazu_kawabe.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masakazu_kawabe_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_masakazu_kawabe_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masamichi_royama_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_masamichi_royama_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masanobu_tsuji"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_masanobu_tsuji.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masanobu_tsuji_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_masanobu_tsuji_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_masatoshi_okochi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_masatoshi_okochi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_michitaro_komatsubara"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_michitaro_komatsubara.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_michitaro_komatsubara_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_michitaro_komatsubara_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_minoru_takano_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_minoru_takano_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_mitsumasa_yonai"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_mitsumasa_yonai.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_mitsumasa_yonai_civilian_imprisoned"
+		texturefile = "gfx/interface/ideas/portrait_JAP_mitsumasa_yonai_civilian_imprisoned.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_mitsumasa_yonai_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_mitsumasa_yonai_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_mitsumasa_yonai_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_mitsumasa_yonai_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_morihei_ueshiba_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_morihei_ueshiba_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_naoki_hoshino_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_naoki_hoshino_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_nashimoto_morimasa"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_nashimoto_morimasa.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_nashimoto_morimasa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_nashimoto_morimasa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_nissho_inoue_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_nissho_inoue_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_noboru_yamaguchi_imprisoned"
+		texturefile = "gfx/interface/ideas/portrait_JAP_noboru_yamaguchi_imprisoned.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_noboru_yamaguchi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_noboru_yamaguchi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_nobusuke_kishi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_nobusuke_kishi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_okinori_kaya_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_okinori_kaya_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_onisaburo_deguchi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_onisaburo_deguchi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_osamu_shimomura_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_osamu_shimomura_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_saburo_aizawa"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_saburo_aizawa.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_saburo_aizawa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_saburo_aizawa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_saionji_kinmochi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_saionji_kinmochi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_sanzo_nosaka"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_sanzo_nosaka.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_sanzo_nosaka_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_sanzo_nosaka_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_sanzo_nosaka_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_sanzo_nosaka_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_seigo_nakano"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_seigo_nakano.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_seigo_nakano_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_seigo_nakano_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_senjuro_hayashi"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_senjuro_hayashi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_senjuro_hayashi_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_senjuro_hayashi_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_senjuro_hayashi_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_senjuro_hayashi_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shigenori_togo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_shigenori_togo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shinji_sogo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_shinji_sogo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shiro_nonaka"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_shiro_nonaka.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shiro_nonaka_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_shiro_nonaka_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shumei_okawa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_shumei_okawa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_shun_akikusa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_shun_akikusa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_suzuki_bunji_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_suzuki_bunji_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tadaichi_wacamatsu"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_tadaichi_wacamatsu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tadaichi_wacamatsu_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_tadaichi_wacamatsu_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_takahashi_korekiyo_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_takahashi_korekiyo_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_takaji_muranaka"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_takaji_muranaka.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_takaji_muranaka_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_takaji_muranaka_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_taketora_ogata_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_taketora_ogata_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tamon_yamaguchi"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_tamon_yamaguchi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tamon_yamaguchi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_tamon_yamaguchi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_teijiro_toyoda"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_teijiro_toyoda.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_teijiro_toyoda_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_teijiro_toyoda_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_teruzo_ando"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_teruzo_ando.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_teruzo_ando_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_teruzo_ando_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tokugawa_iesato"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_tokugawa_iesato.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tokugawa_iesato_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_tokugawa_iesato_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_toyama_mitsuru_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_toyama_mitsuru_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_toyoaki_horiuchi_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_toyoaki_horiuchi_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tsuji_jun_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_tsuji_jun_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tsuneyoshi_takeda"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_tsuneyoshi_takeda.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tsuneyoshi_takeda_civilian_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_tsuneyoshi_takeda_civilian_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_tsuneyoshi_takeda_military_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_tsuneyoshi_takeda_military_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_uzo_nishiyama_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_uzo_nishiyama_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_wakatsuki_reijiro_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_wakatsuki_reijiro_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yamakawa_kikue"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_yamakawa_kikue.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yamakawa_kikue_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yamakawa_kikue_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yamauchi_sachiko_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yamauchi_sachiko_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yasuhide_kurihara"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_yasuhide_kurihara.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yasuhide_kurihara_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yasuhide_kurihara_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yasuhiko_asaka"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_yasuhiko_asaka.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yasuhiko_asaka_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yasuhiko_asaka_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoji_ito"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_yoji_ito.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshio_kodama_civilian"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_yoshio_kodama_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshio_kodama_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yoshio_kodama_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshio_nishina"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_yoshio_nishina.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshio_shiga_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yoshio_shiga_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshisuge_abe_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yoshisuge_abe_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshisuke_aikawa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yoshisuke_aikawa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshitoshi_tokugawa"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_yoshitoshi_tokugawa.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshitoshi_tokugawa_scientist"
+		texturefile = "gfx/leaders/scientists/portrait_JAP_yoshitoshi_tokugawa_scientist.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshitoshi_tokugawa_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yoshitoshi_tokugawa_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshiyuki_kawashima"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_yoshiyuki_kawashima.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yoshiyuki_kawashima_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yoshiyuki_kawashima_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yosuke_matsuoka_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yosuke_matsuoka_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yukio_ozaki_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yukio_ozaki_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yuzuru_hiraga_civilian"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_yuzuru_hiraga_civilian.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yuzuru_hiraga_scientist"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_yuzuru_hiraga_scientist.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JAP_yuzuru_hiraga_small"
+		texturefile = "gfx/interface/ideas/portrait_JAP_yuzuru_hiraga_small.dds"
+	}
+}

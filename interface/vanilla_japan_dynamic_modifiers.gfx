@@ -1,0 +1,50 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_JAP_advanced_weapons_programs"
+		texturefile = "gfx/interface/ideas/idea_JAP_advanced_weapons_programs.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_air_services"
+		texturefile = "gfx/interface/ideas/idea_JAP_air_services.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_east_asian_co_prosperity"
+		texturefile = "gfx/interface/ideas/idea_JAP_east_asian_co_prosperity.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_imperial_army"
+		texturefile = "gfx/interface/ideas/idea_JAP_imperial_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_imperial_influence"
+		texturefile = "gfx/interface/ideas/idea_JAP_imperial_influence.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_imperial_influence_communist"
+		texturefile = "gfx/interface/ideas/idea_JAP_imperial_influence_communist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_imperial_navy"
+		texturefile = "gfx/interface/ideas/idea_JAP_imperial_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_rounou_ha"
+		texturefile = "gfx/interface/ideas/idea_JAP_rounou_ha.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_showa_statism"
+		texturefile = "gfx/interface/ideas/idea_JAP_showa_statism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_the_civilian_cabinet"
+		texturefile = "gfx/interface/ideas/idea_JAP_the_civilian_cabinet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_the_imperial_way"
+		texturefile = "gfx/interface/ideas/idea_JAP_the_imperial_way.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_the_japanese_communist_party"
+		texturefile = "gfx/interface/ideas/idea_JAP_the_japanese_communist_party.dds"
+	}
+}
