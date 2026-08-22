@@ -1,0 +1,10 @@
+# Overrides vanilla's is_league_of_nations_member (common/scripted_triggers/00_scripted_triggers.txt),
+# which checks has_idea = league_of_nations_member_idea. This mod's zzz_generic.txt does not define
+# that idea (membership is tracked via league_of_nations_member_flag instead, see 08_bba_on_actions.txt),
+# so the vanilla version always logged an invalid-idea error and always evaluated false.
+is_league_of_nations_member = {
+	custom_trigger_tooltip = {
+		tooltip = is_league_of_nations_member_tt
+		has_country_flag = league_of_nations_member_flag
+	}
+}

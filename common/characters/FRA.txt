@@ -2684,13 +2684,13 @@ characters={
 				}
 			}
 			traits = {
-				assault_avaition  
+				assault_avaition
 			}
-			cost = 250 
+			cost = 250
 			ai_will_do = {#probably too specific to be used by the AI
 				factor = 0
 				modifier = {
-					has_tech = force_rotation
+					has_doctrine = new_battlefield_support
 					add = 1
 				}
 			}

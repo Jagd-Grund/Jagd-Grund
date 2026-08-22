@@ -1164,11 +1164,172 @@ ideas = {
 			removal_cost = -1
 
 			picture = generic_manpower_bonus
-			
+
 			modifier = {
 				conscription = 0.02
 			}
-			
+
+		}
+
+		# Restored from Road to 56 base: SIA_scripted_effects.txt still calls swap_ideas
+		# on these via the khana ratsadon approval mechanic, even though the rest of
+		# this file has been reworked. Without them swap_ideas logs invalid idea errors.
+		idea_SIA_civilian_full_support = {
+			picture = SIA_civillian_full_support
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+
+				compliance_gain = 0.05
+				political_power_gain = 0.05
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+
+		idea_SIA_civilian_slight_support = {
+			picture = SIA_civillian_slight_support
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.05
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+
+		idea_SIA_civilian_neutral = {
+			picture = SIA_civillian_neutral
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+
+		idea_SIA_civilian_opposition = {
+			picture = SIA_civillian_opposition
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				production_speed_industrial_complex_factor = -0.1
+			}
+		}
+
+		idea_SIA_civilian_rebellious = {
+			picture = SIA_civillian_rebellious
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_industrial_complex_factor = -0.15
+				stability_factor = -0.25
+			}
+		}
+
+		idea_SIA_military_full_support = {
+			picture = SIA_military_full_support
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				conscription_factor = 0.15
+			}
+		}
+
+		idea_SIA_military_slight_support = {
+			picture = SIA_military_slight_support
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				conscription_factor = 0.05
+			}
+		}
+
+		idea_SIA_military_neutral = {
+			picture = SIA_military_neutral
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+
+		idea_SIA_military_opposition = {
+			picture = SIA_military_opposition
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = -0.05
+				war_support_factor = -0.08
+			}
+		}
+
+		idea_SIA_military_rebellious = {
+			picture = SIA_military_rebellious
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+				original_tag = SIA
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = -0.15
+				conscription_factor = -0.1
+			}
 		}
 	}
 }

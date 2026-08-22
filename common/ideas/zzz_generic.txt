@@ -24,5 +24,21 @@ ideas = {
 				bunker_max_level_terrain_limit = 1
 			}
 		}
+
+		organization_of_african_unity_member_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			picture = generic_org_of_african_unity
+
+			modifier = {
+			}
+		}
 	}
 }
