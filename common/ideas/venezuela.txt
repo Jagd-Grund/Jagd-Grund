@@ -1128,5 +1128,31 @@ ideas = {
 				factor = 1
 			}
 		}
+		idea_VEN_blockade_inactive = {
+			picture = generic_victors_of_ww1
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			}
+		}
+		idea_VEN_defensive_posture = {
+			picture = generic_victors_of_ww1
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+			}
+		}
 	}
 }

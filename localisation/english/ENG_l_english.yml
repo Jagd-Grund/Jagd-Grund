@@ -562,9 +562,3 @@ ENG_raised_home_guard_here_already_flag:0 "Home Guard have already been Raised i
 ENG_send_the_home_guard_back_home:0 "Send the Home Guards back Home"
 ENG_disband_home_guards_tt:0 "§RAll Home Guard divisions will be disbanded§!. \n(Manpower and equipment will not be refunded)"
 ENG_promote_the_blitz_spirit:0 "Promote the Blitz Spirit"
-
-GFX_goal_CAN_tovictory
-GFX_goal_RAJ_British_India_Borders
-GFX_goal_AST_new_guard
-GFX_goal_SAF_flag
-GFX_goal_NZL_kac

@@ -22,66 +22,65 @@ POR_historical_plan = {
 
 	ai_national_focuses = {
 		#1936
-		POR_estado_novo
-		POR_continue_the_public_works
-		POR_instituto_superior_tecnico
-		POR_second_navy_reequipment
-		POR_support_the_spanish_nationalists
+		POR_continue_salazars_policies
+		POR_continue_the_public_works_r56
+		POR_support_continued_educational_expansion
+		POR_continue_the_naval_expansion
+		POR_study_the_spanish_conflict
 		#1937
-		POR_colonial_assimilation_policy
-		POR_roads_bridges_and_dams
-		POR_portuguese_legion
-		POR_arsenal_do_alfeite
-		POR_a_powerful_merchant_marine
+		POR_strengthen_the_colonial_administration
+		POR_modernize_the_national_rail_network
+		POR_found_the_portuguese_legion
+		POR_expand_the_alfeite_shipyard
+		POR_expand_the_merchant_fleet
 		#1938
-		POR_army_reorganization
-		POR_observation_mission
-		POR_strengthen_the_regime
-		POR_corpo_do_estado_maior
-		POR_ogme
+		POR_complete_the_military_restructuring
+		POR_learn_from_guerrilla_operations
+		POR_tighten_the_regime
+		POR_institute_of_higher_military_studies
+		POR_subsidize_OGME
 		#1939
-		POR_appease_monarchists
-		POR_food_industries
-		POR_merchant_marine_protection
-		POR_metropolitan_army
-		POR_ogma
+		POR_government_of_national_consensus
+		POR_import_foreign_machinery
+		POR_anti_submarine_weaponry
+		POR_plan_for_a_defense_of_the_interior
+		POR_modern_engines
 		#1940
-		POR_the_capital_of_espionage
-		POR_concordat_with_the_holy_see
-		POR_textile_industry
-		POR_portuguese_artillery
-		POR_military_research_facilities
+		POR_embrace_the_capital_of_espionage
+		POR_promote_national_catholicism
+		POR_develop_portuguese_textiles
+		POR_modernize_our_artillery_systems
 		#1941
-		POR_national_gold_reserves
-		POR_standardization
-		POR_submarine_effort
-		POR_extraction_industries
-		POR_colonial_army
+		POR_utilize_the_budget_surplus
+		POR_modernize_our_infantry
+		POR_focus_on_submarine_production
+		POR_expand_the_mining_industry
+		POR_bolster_the_colonial_garrison
 		#1942
-		POR_national_cruiser_production
-		POR_atlantic_defense_strategy
-		POR_staff_wargames
-		POR_hydroelectricity
-		POR_infrastructure_in_angola
+		POR_restore_our_high_seas_presence
+		POR_the_future_of_naval_deterrence
+		POR_study_flexible_defense_plans
+		POR_finish_the_santa_luzia_dam
+		POR_develop_the_angolan_interior
 		#1943
-		POR_proudly_alone
-		POR_develop_north_angola
-		POR_develop_south_angola
-		POR_portuguese_oil
-		POR_fuzileiros
-		POR_naval_research_institute
+		POR_portugal_first
+		POR_expand_overseas_recruitment
+		POR_develop_mozambique_r56
+		POR_the_resource_war
+		POR_study_amphibious_operations
+		POR_guide_the_future_of_naval_warfare
 	}
 
 	focus_factors = {
-		POR_send_assistance = 0
-		POR_nationalist_intervention = 0
-		POR_iberian_summit = 0
-		POR_the_eastern_menace = 0
-		POR_the_communist_threat = 0
-		POR_national_syndicalism = 0
-		POR_honor_anglo_portuguese_alliance = 0
-		POR_a_royal_wedding = 0
-	}				
+		POR_allied_intelligence_cooperation = 0
+		POR_study_the_spanish_conflict = 0
+		POR_reenter_international_affairs = 0
+		POR_all_against_the_bolshevik_threat = 0
+		POR_silence_militant_revolutionaries = 0
+		POR_syndicalize_the_vital_sectors = 0
+		POR_integrate_with_the_western_economies = 0
+		POR_integrate_the_monarchist_opposition = 0
+	}
 
 	research = {
 

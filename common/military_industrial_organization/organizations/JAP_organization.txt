@@ -274,3 +274,336 @@ JAP_nissan_organization = {
 		}
 	}
 }
+
+JAP_sagami_army_arsenal_organization = {
+	include = generic_medium_tank_organization
+	icon = GFX_idea_JAP_sagami_arsenal
+	allowed = {
+		original_tag = JAP
+		has_dlc = "Arms Against Tyranny"
+	}
+
+	add_trait = {
+		token = JAP_mio_trait_military_arsenal_trait
+		name = JAP_mio_trait_military_arsenal_trait
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_armor_steel_working
+
+		position = { x = -5 y = 0 }
+
+		visible = {
+			FROM = { original_tag = JAP }
+		}
+
+		available = {
+			FROM = {
+				JAP_army_faction_is_not_subdued = yes
+			}
+		}
+
+		on_complete = {
+
+		}
+
+		organization_modifier = {
+
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = JAP_mio_trait_foreign_research_and_development_cooperation
+		name = JAP_mio_trait_foreign_research_and_development_cooperation
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_aircraft_engines
+
+		position = { x = 0 y = 1 }
+
+		visible = {
+			FROM = { original_tag = JAP }
+		}
+
+		available = {
+			FROM = {
+				has_completed_focus = JAP_foreign_tank_modernization_cooperation
+				NOT = { has_country_flag = JAP_mio_trait_foreign_research_and_development_cooperation_taken_flag }
+			}
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+			FROM = {
+				set_country_flag = JAP_mio_trait_foreign_research_and_development_cooperation_taken_flag
+			}
+		}
+
+		organization_modifier = {
+		    military_industrial_organization_research_bonus = 0.15
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.1
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+}
+
+JAP_kawanishi_aircraft_company_organization = {
+	include = generic_multi_role_aircraft_organization
+	icon = GFX_idea_JAP_kawanishi
+	allowed = {
+		original_tag = JAP
+		has_dlc = "Arms Against Tyranny"
+	}
+
+	add_trait = {
+		token = JAP_mio_trait_unified_research_and_development
+		name = JAP_mio_trait_unified_research_and_development
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_escort_designs
+
+		position = { x = 3 y = 0 }
+
+		visible = {
+			FROM = { original_tag = JAP }
+		}
+
+		available = {
+			FROM = {
+				has_completed_focus = JAP_sea_unify_the_air_forces
+				NOT = { has_country_flag = JAP_mio_trait_unified_research_and_development_taken_flag }
+			}
+		}
+
+		on_complete = {
+			custom_effect_tooltip = generic_trait_will_not_be_available_in_other_organizations
+			FROM = {
+				set_country_flag = JAP_mio_trait_unified_research_and_development_taken_flag
+			}
+		}
+
+		organization_modifier = {
+		    military_industrial_organization_research_bonus = 0.15
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.1
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+}
+
+JAP_kokura_arsenal_organization = {
+	include = generic_infantry_equipment_organization
+	icon = GFX_idea_tokyo_arsenal
+	allowed = {
+		OR = {
+			AND = {
+				original_tag = JAP
+				has_dlc = "Arms Against Tyranny"
+			}
+			PHI_SEA = yes
+		}
+
+	}
+
+	available = {
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = JAP } }
+			}
+			FROM = { NOT = { has_war_with = JAP } }
+		}
+
+		IF = {
+			limit = {
+				FROM = {
+					original_tag = PHI
+				}
+			}
+			FROM = {
+				has_completed_focus = PHI_align_with_japan
+				if = {
+					limit = {
+						has_completed_focus = PHI_declare_military_emergency
+					}
+					NOT = {
+						has_completed_focus = PHI_declare_military_emergency
+					}
+				}
+			}
+		}
+	}
+
+	add_trait = {
+		token = JAP_mio_trait_military_arsenal_trait
+		name = JAP_mio_trait_military_arsenal_trait
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_heavy_anti_armor_ammunition
+
+		position = { x = 1 y = 0 }
+
+		visible = {
+			FROM = { original_tag = JAP }
+		}
+
+		available = {
+			FROM = {
+				JAP_army_faction_is_not_subdued = yes
+			}
+		}
+
+		on_complete = {
+
+		}
+
+		organization_modifier = {
+
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+	add_trait = {
+		token = PHI_mio_trait_rugged_construction
+		name = PHI_mio_trait_rugged_construction
+		icon = GFX_generic_mio_trait_icon_reliability
+		special_trait_background = yes
+
+		position = { x=0 y=0 }
+
+		visible = {
+			FROM = {
+				original_tag = PHI
+			}
+		}
+
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+
+	add_trait = {
+		token = PHI_mio_trait_use_local_materials
+		name = PHI_mio_trait_use_local_materials
+		icon = GFX_generic_mio_department_icon_facilities
+		special_trait_background = yes
+
+		position = { x=0 y=1 }
+
+		visible = {
+			FROM = {
+				original_tag = PHI
+			}
+		}
+
+		any_parent = { PHI_mio_trait_rugged_construction }
+
+		production_bonus = {
+			production_cost_factor = -0.05
+		}
+	}
+
+}
+
+JAP_nagoya_arsenal_organization = {
+	include = generic_support_equipment_organization
+	icon = GFX_idea_JAP_nagoya_arsenal
+
+	allowed = {
+		OR = {
+			original_tag = JAP
+			original_tag = MAN
+		}
+		has_dlc = "Arms Against Tyranny"
+	}
+
+	available = {
+		# When in a Foreign MIO, countries need to be at peace with original country
+		IF = {
+			limit = {
+				FROM = { NOT = { original_tag = JAP } }
+			}
+			FROM = { NOT = { has_war_with = JAP } }
+		}
+
+		IF = {
+			limit = {
+				FROM = { original_tag = MAN }
+			}
+			FROM = {
+				OR = {
+					is_subject_of = JAP
+					is_in_faction_with = JAP
+				}
+			}
+		}
+	}
+
+	add_trait = {
+		token = JAP_mio_trait_military_arsenal_trait
+		name = JAP_mio_trait_military_arsenal_trait
+		icon = GFX_generic_mio_trait_icon_production_capacity
+		special_trait_background = yes
+
+		relative_position_id = generic_mio_trait_anti_tank_rifle
+
+		position = { x = 1 y = 0 }
+
+		visible = {
+			FROM = { original_tag = JAP }
+		}
+
+		available = {
+			FROM = {
+				JAP_army_faction_is_not_subdued = yes
+			}
+		}
+
+		on_complete = {
+
+		}
+
+		organization_modifier = {
+
+		}
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+		}
+
+		ai_will_do = {
+			base = 2
+		}
+	}
+
+}

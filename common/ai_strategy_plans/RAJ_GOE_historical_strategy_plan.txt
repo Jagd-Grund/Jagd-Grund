@@ -1,4 +1,4 @@
-RAJ_historical = {
+RAJ_historical_goe = {
 	name = "Indian historical plan"
 	desc = ""
 
