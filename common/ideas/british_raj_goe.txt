@@ -3481,7 +3481,6 @@ ideas = {
 				original_tag = RAJ
 			}
 			available = {
-				#has_completed_focus = RAJ_establish_the_reserve_bank_of_india 
 			}
 			visible = {
 				

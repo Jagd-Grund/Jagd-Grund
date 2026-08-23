@@ -878,7 +878,6 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = KOR_hanjin_heavy_industries
 			}
 
 			research_bonus = {

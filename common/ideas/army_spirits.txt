@@ -269,8 +269,6 @@ ideas = {
 			available = { 
 				has_military_academy = yes 
 				NOT = {
-					has_completed_focus = CHI_close_whampoa
-					has_completed_focus = CHI_end_military_primacy
 				}
 			}
 			visible = { 
@@ -287,9 +285,6 @@ ideas = {
 			}
 			allowed_to_remove = {
 				OR = {
-					has_completed_focus = CHI_end_military_primacy
-					has_completed_focus = CHI_close_whampoa 
-					has_completed_focus = CHI_focus_on_meritocratic_principles
 				}
 			}
 			ai_will_do = {

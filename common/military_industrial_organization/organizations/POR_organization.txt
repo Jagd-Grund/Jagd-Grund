@@ -105,7 +105,6 @@ POR_ogma_organization = {
 				}
 			}
 			owner = {
-				has_completed_focus = POR_ogma
 			}
 		}	
 	}	
@@ -136,7 +135,6 @@ POR_ogma_organization_r56 = {
 				}
 			}
 			owner = {
-				has_completed_focus = POR_ogma
 			}
 		}	
 	}
@@ -351,7 +349,6 @@ POR_ogme_organization = {
 				}
 			}
 			owner = {
-				has_completed_focus = POR_ogme
 			}
 		}	
 	}
@@ -378,7 +375,6 @@ POR_fma_organization = {
 				}
 			}
 			owner = {
-				has_completed_focus = POR_portuguese_artillery
 			}
 		}	
 	}

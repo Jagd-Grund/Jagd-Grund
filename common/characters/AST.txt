@@ -898,7 +898,6 @@ characters={
 					limit = {
 					#	has_global_flag = ast_tfv_focus_tree
 					}
-					has_completed_focus = AST_australian_army_catering_corps
 				}
 				else = {
 					has_completed_focus = AST_R56_australian_army_catering_corps
@@ -1002,7 +1001,6 @@ characters={
 				smooth_talking_charmer 
 			}
 			available = {
-				has_completed_focus = AST_never_another_gallipoli 
 			}
 		}		
 	}
@@ -1174,7 +1172,6 @@ AST_George_Jackson={
 					#	has_global_flag = ast_tfv_focus_tree
 					}
 					OR = {
-						has_completed_focus = AST_support_the_centre_party
 						has_completed_focus = AST_R56_australia_first
 					}
 					
@@ -1243,7 +1240,6 @@ AST_George_Jackson={
 						#has_global_flag = ast_tfv_focus_tree
 					}
 					OR = {
-						has_completed_focus = AST_empower_the_workers
 						has_completed_focus = AST_R56_appeal_to_the_labour_dissidents
 					}
 				}
@@ -1289,8 +1285,6 @@ AST_George_Jackson={
 						#	has_global_flag = ast_tfv_focus_tree
 						}
 						OR = {
-							has_completed_focus = AST_protect_the_homeland
-							has_completed_focus = AST_support_the_policy_of_appeasement
 						}
 					}
 					if = {

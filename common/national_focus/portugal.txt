@@ -502,8 +502,6 @@ focus_tree = {
 					name = POR_restore_our_high_seas_presence
 					bonus = 0.75
 					uses = 1
-					technology = basic_medium_battery
-					technology = improved_medium_battery
 					technology = basic_heavy_battery
 					technology = improved_heavy_battery
 				}
@@ -1185,7 +1183,6 @@ focus_tree = {
 					technology = engine_tech_2
 					technology = engine_tech_3
 					technology = engine_tech_4
-					technology = engine_tech_5
 				}
 			}
 			else = {

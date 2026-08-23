@@ -367,7 +367,6 @@ characters={
 				original_tag = NZL
 			}
 			available = {
-				has_completed_focus =  NZL_hire_physicists
 			}			
 			research_bonus = {
 				nuclear = 0.15
@@ -727,7 +726,6 @@ characters={
 			}
 			available = {	
 				OR = {
-				 has_completed_focus = NZL_reconcile_political_opponents
 				 has_completed_focus = NZL_invite_radical_labour_exiles
 				}
 			}			

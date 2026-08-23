@@ -130,7 +130,6 @@ ideas = {
 						has_dlc = "Together for Victory"
 						has_global_flag = ast_tfv_focus_tree
 					}
-					has_completed_focus = AST_citizen_military_forces
 				}
 				if = {
 					limit = {
@@ -214,7 +213,6 @@ ideas = {
 					limit = {
 						original_tag = MON
 					}
-					NOT = { has_completed_focus = MON_changes_within }
 				}
 			}
 
@@ -301,8 +299,6 @@ ideas = {
 						has_dlc = "Together for Victory"
 						has_global_flag = ast_tfv_focus_tree
 					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
 				}
 				if = {
 					limit = {
@@ -407,7 +403,6 @@ ideas = {
 					limit = {
 						original_tag = MON
 					}
-					NOT = { has_completed_focus = MON_changes_within }
 				}
 			}
 
@@ -480,8 +475,6 @@ ideas = {
 						has_dlc = "Together for Victory"
 						has_global_flag = ast_tfv_focus_tree
 					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
 				}
 				if = {
 					limit = {
@@ -585,7 +578,6 @@ ideas = {
 					limit = {
 						original_tag = MON
 					}
-					NOT = { has_completed_focus = MON_changes_within }
 				}
 			}
 
@@ -669,8 +661,6 @@ ideas = {
 						has_dlc = "Together for Victory"
 						has_global_flag = ast_tfv_focus_tree
 					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
 				}
 				if = {
 					limit = {
@@ -784,7 +774,6 @@ ideas = {
 					limit = {
 						original_tag = MON
 					}
-					NOT = { has_completed_focus = MON_changes_within }
 				}
 			}
 
@@ -862,8 +851,6 @@ ideas = {
 						has_dlc = "Together for Victory"
 						has_global_flag = ast_tfv_focus_tree
 					}
-					has_completed_focus = AST_citizen_military_forces
-					has_completed_focus = AST_fight_work_or_perish
 				}
 				if = {
 					limit = {
@@ -965,7 +952,6 @@ ideas = {
 					limit = {
 						original_tag = MON
 					}
-					NOT = { has_completed_focus = MON_changes_within }
 				}
 			}
 
@@ -1077,10 +1063,6 @@ ideas = {
 				always = no
 			}
 			allowed_to_remove = {
-				has_completed_focus = SWI_professionalize_militias
-				has_completed_focus = SWI_join_the_allies
-				has_completed_focus = SWI_join_france
-				has_completed_focus = SWI_jump_into_action
 			}
 			ai_will_do = {
 				factor = 0
@@ -1103,10 +1085,6 @@ ideas = {
 				always = no
 			}
 			allowed_to_remove = {
-					has_completed_focus = SWI_professionalize_militias
-				has_completed_focus = SWI_join_the_allies
-				has_completed_focus = SWI_join_france
-				has_completed_focus = SWI_jump_into_action
 			}
 			ai_will_do = {
 				factor = 0

@@ -35,7 +35,6 @@ ENG_vickers_armstrong_eng_organization = {
 	visible = {
 		if = {
 			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
 		}
 	}
 	
@@ -129,16 +128,13 @@ ENG_vauxhall_organization = {
 			}
 			FROM = {
 				has_country_flag = POL_vauxhall_motors
-				NOT = { has_completed_focus = POL_adaptive_designs }
 			}
 		}
 		if = {
 			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
 		}
 		if = {
 			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
 		}
 		if = {
 			limit = { FROM = { original_tag = EGY } }
@@ -191,7 +187,6 @@ ENG_harland_wolff_organization = {
 				original_tag = ENG
 				original_tag = IRE
 				original_tag = NIR
-				has_completed_focus = CEL_develop_ireland
 			}
 			if = {
 				limit = {
@@ -294,7 +289,6 @@ ENG_cammell_laird_organization = {
 			OR = {
 				original_tag = SCO
 				original_tag = ENG
-				has_completed_focus = CEL_scottish_steel_sector
 			}
 			if = {
 				limit = {
@@ -319,7 +313,6 @@ ENG_cammell_laird_organization = {
 			or = {
 				original_tag = SCO
 				original_tag = ENG
-				has_completed_focus = CEL_celtic_unification
 			}
 			
 		}
@@ -432,7 +425,6 @@ ENG_john_brown_organization = {
 	visible = {
 		if = {
 			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
 		}
 	}
 	
@@ -816,12 +808,10 @@ ENG_vauxhall_automotive_organization = {
 			}
 			FROM = {
 				has_country_flag = POL_vauxhall_motors
-				NOT = { has_completed_focus = POL_adaptive_designs }
 			}
 		}
 		if = {
 			limit = { FROM = { original_tag = ETH } }
-			FROM = { has_completed_focus = ETH_invite_foreign_industrialists }
 		}	
 	}
 	

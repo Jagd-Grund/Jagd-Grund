@@ -2695,7 +2695,6 @@ SPA_juan_yague={ # Falangist - DLC tree version
 					NOT = {
 						tag = S56
 					}
-					has_completed_focus = SPR_restore_the_monarchy
 				}
 			}
 		}
@@ -2721,7 +2720,6 @@ SPA_juan_yague={ # Falangist - DLC tree version
 				NOT = {
 					tag = S56
 				}
-				has_completed_focus = SPR_Expand
 			}
 		}
 	}
@@ -2746,7 +2744,6 @@ SPA_juan_yague={ # Falangist - DLC tree version
 				NOT = {
 					tag = S56
 				}
-				has_completed_focus = SPR_Expand
 			}
 		}
 	}
@@ -2771,7 +2768,6 @@ SPA_juan_yague={ # Falangist - DLC tree version
 				NOT = {
 					tag = S56
 				}
-				has_completed_focus = SPR_Expand
 			}
 		}
 	}
@@ -2875,7 +2871,6 @@ SPA_juan_yague={ # Falangist - DLC tree version
 				}
 				tag = S56
 				S56 = {
-					has_completed_focus = SPR_Expand
 				}
 			}
 		}

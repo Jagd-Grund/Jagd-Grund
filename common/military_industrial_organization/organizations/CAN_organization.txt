@@ -369,8 +369,6 @@ CAN_ford_organization = {
 
 	available = {
 		owner = {
-			has_completed_focus = CAN_cmp_truck
-			has_completed_focus = CAN_shadow_factories
 		}
 	}	
 	initial_trait = {

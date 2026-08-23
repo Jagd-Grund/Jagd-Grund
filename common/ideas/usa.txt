@@ -2204,7 +2204,6 @@ ideas = {
 				#	has_completed_focus = USA_arsenal_of_democracy
 				#	has_completed_focus = USA_war_propaganda
 				#}
-				has_completed_focus = USA_mobilize_the_railways
 			}
 			
 			allowed = {
@@ -2651,7 +2650,6 @@ ideas = {
 				#	has_completed_focus = USA_arsenal_of_democracy
 				#	has_completed_focus = USA_war_propaganda
 				#}
-				has_completed_focus = USA_continue_dieselisation
 			}
 			
 			traits = { r56_train_manufacturer }

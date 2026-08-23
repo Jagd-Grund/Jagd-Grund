@@ -549,7 +549,6 @@ ideas = {
 			cancel = {
 				OR = {
 					has_war = yes
-					has_completed_focus = GEN_interventionist_approach
 				}
 			}
 			

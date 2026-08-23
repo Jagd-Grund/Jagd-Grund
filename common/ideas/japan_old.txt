@@ -3371,7 +3371,6 @@ ideas = {
 			#}
 
 			#available = {
-				#has_completed_focus = JAP_supremacy_of_the_battlefleet
 			#}
 
 			#cost = 75
@@ -3489,7 +3488,6 @@ ideas = {
 				original_tag = JAP
 			}
 			available = {
-				has_completed_focus = JAP_close_the_island
 			}
 			
 			research_bonus = {
@@ -3521,7 +3519,6 @@ ideas = {
 			#cost = 75
 			
 			#available = {
-				#has_completed_focus = JAP_agility_focus
 			#}
 			
 			#research_bonus = {
@@ -3536,7 +3533,6 @@ ideas = {
 			#ai_will_do = {
 				#factor = 1
 				#modifier = {
-					#has_completed_focus = JAP_purge_the_kodoha_faction
 					#add = 3
 				#}				
 			#}			
@@ -3550,7 +3546,6 @@ ideas = {
 			#cost = 75
 
 			#available = {
-				#has_completed_focus = JAP_range_focus
 			#}
 						
 			#research_bonus = {
@@ -3807,7 +3802,6 @@ ideas = {
 			}
 			
 			available = {
-				has_completed_focus = JAP_expand_the_snlf
 			}
 
 			research_bonus = {
@@ -3946,12 +3940,10 @@ ideas = {
 						has_dlc = "Waking the Tiger"
 					}
 					OR = {
-						has_completed_focus = JAP_purge_the_kodoha_faction
 						has_completed_focus = JAP_strengthen_civilian_government
 					}
 				}
 				else = {
-					has_completed_focus = JAP_purge_the_kodoha_faction
 				}
 			}
 			

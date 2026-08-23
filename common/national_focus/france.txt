@@ -7937,18 +7937,6 @@ focus = {
 				uses = 1
 				category = cl_tech
 			}
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}
-				add_tech_bonus = {
-					name = FRA_improved_screen_ships
-					bonus = 1
-					uses = 1
-					technology = improved_medium_battery
-					technology = advanced_medium_battery
-				}
-			}
 		}
 	}
 	

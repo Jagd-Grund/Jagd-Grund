@@ -27,7 +27,7 @@ country_event = { #Phibun takes power
 		set_politics = {
 			ruling_party = fascism
 		}
-		SIA_plaek_phibunsongkhram = {
+		SIA_plaek_phibunsongkhram_jg = {
 			promote_leader = yes
 		}		
 	}
@@ -165,7 +165,7 @@ country_event = { #Trial of formers Khana Ratsadon Members (Phibun)
 		name = siam.30.a
 		add_stability = 0.05
 		add_political_power = 100
-		retire_character = SIA_plaek_phibunsongkhram
+		retire_character = SIA_plaek_phibunsongkhram_jg
 	}
 
 	option = { #We still need him
@@ -611,7 +611,7 @@ country_event = { #Elections in Siam
 		name = siam.24.b
 		set_country_flag = SIA_conservatives_win_election
 		add_country_leader_role = {
-			character = SIA_seni_pramoj
+			character = SIA_seni_pramoj_jg
 			promote_leader = yes
 			country_leader = {
 				ideology = conservatism

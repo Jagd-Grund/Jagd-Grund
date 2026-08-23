@@ -582,17 +582,17 @@
  mediator:0 "Mediator"
 
  # Political Advisors
- SIA_phayom_chulanont:0 "Phayom Chulanont"
- SIA_seni_pramoj:0 "Seni Pramoj"
+ SIA_phayom_chulanont_jg:0 "Phayom Chulanont"
+ SIA_seni_pramoj_jg:0 "Seni Pramoj"
  SIA_phraya_manopakorn_nititada:0 "Phraya Manopakorn Nititada"
- SIA_Leng_Srisomwong:0 "Leng Srisomwong"
- SIA_Thawi_Bunyaket:0 "Thawi Bunyaket"
- SIA_Muni_Mahasandana:0 "Muni Mahasandana"
- SIA_Luang_Wichitwathakan:0 "Luang Wichitwathakan"
- SIA_Khuang_Aphaiwong:0 "Khuang Aphaiwong"
- SIA_Aduldej_Charat:0 "Aduldej Charat"
- SIA_Pao_Pienlert_Boripanyutakit:0 "Pao Pienlert Boripanyutakit"
- SIA_Luang_Chuangsakram:0 "Luang Chuangsakram"
+ SIA_Leng_Srisomwong_jg:0 "Leng Srisomwong"
+ SIA_Thawi_Bunyaket_jg:0 "Thawi Bunyaket"
+ SIA_Muni_Mahasandana_jg:0 "Muni Mahasandana"
+ SIA_Luang_Wichitwathakan_jg:0 "Luang Wichitwathakan"
+ SIA_Khuang_Aphaiwong_jg:0 "Khuang Aphaiwong"
+ SIA_Aduldej_Charat_jg:0 "Aduldej Charat"
+ SIA_Pao_Pienlert_Boripanyutakit_jg:0 "Pao Pienlert Boripanyutakit"
+ SIA_Luang_Chuangsakram_jg:0 "Luang Chuangsakram"
 
 
  # Military Staff
@@ -602,7 +602,7 @@
 
  # Earth
  SIA_phraya_ritthiakhaney:0 "Phraya Ritthiakhaney"
- SIA_plaek_phibunsongkhram:0 "Plaek Phibunsongkhram"
+ SIA_plaek_phibunsongkhram_jg:0 "Plaek Phibunsongkhram"
 
  # Water
  SIA_luang_supachalasai:0 "Luang Supachalasai"

@@ -828,7 +828,6 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-				has_completed_focus  = FRA_little_entente
 				has_government  = democratic 
 			}
 			cost  = 75.000
@@ -1441,7 +1440,6 @@ characters={
 			}
 			
 			#visible = {
-			#	has_completed_focus = FRA_distance_from_radicalism
 			#}
 			
 			traits = { skillful_polemicist }
@@ -2051,7 +2049,6 @@ characters={
 			}
 			
 			visible = {
-				has_completed_focus = FRA_cagoule_coup
 			}
 			
 			traits = { radical_anti_communist }
@@ -2081,7 +2078,6 @@ characters={
 			}
 			
 			visible = {
-				has_completed_focus = FRA_cagoule_coup
 			}
 			
 			traits = { connected_politician }
@@ -2111,7 +2107,6 @@ characters={
 			}
 			
 			visible = {
-				has_completed_focus = FRA_cagoule_coup
 			}
 			
 			traits = { eye_above_the_population }
@@ -2141,7 +2136,6 @@ characters={
 			}
 			
 			visible = {
-				has_completed_focus = FRA_cagoule_coup
 			}
 			
 			traits = { stern_imperialist }

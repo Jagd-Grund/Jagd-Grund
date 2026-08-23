@@ -1075,7 +1075,6 @@ characters = {
 					has_country_flag = vlasov_help_coup
 				}
 				else = {
-					has_completed_focus = SOV_form_a_fifth_column
 				}
 			}
 			visible = {
@@ -3564,7 +3563,6 @@ characters = {
 					}
 				}
 				else = {
-					has_completed_focus = SOV_form_a_fifth_column
 				}
 			}
 			visible = {
@@ -3620,7 +3618,6 @@ characters = {
 					}
 				}
 				else = {
-					has_completed_focus = SOV_form_a_fifth_column
 				}
 			}
 			visible = {
@@ -4960,7 +4957,6 @@ characters = {
 				OR = {
 
 					
-					has_completed_focus = SOV_orthadox_resurgance
 			}
 				}
 				else = {

@@ -2285,7 +2285,6 @@ ideas = {
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2313,7 +2312,6 @@ ideas = {
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2341,7 +2339,6 @@ ideas = {
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2432,7 +2429,6 @@ ideas = {
 
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2460,7 +2456,6 @@ ideas = {
 
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2487,7 +2482,6 @@ ideas = {
 
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2516,7 +2510,6 @@ ideas = {
 			cost = 50
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2549,7 +2542,6 @@ ideas = {
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2576,7 +2568,6 @@ ideas = {
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {
@@ -2603,7 +2594,6 @@ ideas = {
 			}
 
 			visible = {
-				#has_completed_focus = ETH_soviet-ethiopian_trade_agreement
 			}
 
 			research_bonus = {

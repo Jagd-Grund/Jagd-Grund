@@ -261,12 +261,10 @@ ideas = {
 							has_dlc = "Arms Against Tyranny"
 						}
 						OR = {
-							has_completed_focus = HUN_secret_rearmament
 							NOT = { has_idea = HUN_treaty_of_triannon_aat }
 						}
 					}
 					ELSE = {
-						has_completed_focus = HUN_secret_rearmament
 						NOT = { has_idea = HUN_treaty_of_triannon }
 					}
 				}
@@ -366,7 +364,6 @@ ideas = {
 					NOT = {
 						has_idea = war_economy
 					}
-					has_completed_focus = GUAY_coup_detat
 				}
    			}
 		}
@@ -850,12 +847,10 @@ ideas = {
 				tag = CHI
 			}
 			visible = {
-				has_completed_focus = CHI_democracy_with_chinese_characteristics
 			}
 
 			
 			available = {
-				has_completed_focus = CHI_democracy_with_chinese_characteristics
 			}
 
 			allowed_to_remove = {
@@ -1323,7 +1318,6 @@ ideas = {
 			}
 			visible = {
 				tag = JAP
-				has_completed_focus = JAP_close_the_island
 			}
 			
 			removal_cost = -1
@@ -1408,8 +1402,6 @@ ideas = {
 					}
 					OR = {
 						has_war = yes
-						has_completed_focus = POL_integrate_gdansk_industries
-						has_completed_focus = POL_expand_gdynia_seaport
 						NOT = {
 							owns_state = 85
 							owns_state = 807
@@ -1482,7 +1474,6 @@ ideas = {
 					limit = {
 						original_tag = MON
 					}
-					NOT = { has_completed_focus = MON_changes_within }
 				}
 			}
 						
@@ -1559,7 +1550,6 @@ ideas = {
 					limit = {
 						original_tag = MON
 					}
-					NOT = { has_completed_focus = MON_changes_within }
 				}
 			}
 			

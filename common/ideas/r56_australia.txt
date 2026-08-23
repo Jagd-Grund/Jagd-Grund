@@ -28,7 +28,6 @@ ideas = {
 
 			allowed = {
 				#original_tag = RAJ
-				#has_completed_focus = RAJ_Linlithgows_Reign
 			}
 
 			removal_cost = -1

@@ -1364,7 +1364,6 @@ focus_tree = {
                     uses = 1
                     technology = basic_torpedo
                     technology = magnetic_detonator
-                    technology = electric_torpedo
                     technology = homing_torpedo
                 }
             }

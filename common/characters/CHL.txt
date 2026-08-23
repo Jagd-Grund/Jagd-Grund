@@ -438,13 +438,11 @@ characters = {
 				original_tag = CHL
 			}
 			available = {
-				has_completed_focus = CHL_the_spread_of_fascism
 			}
 			ai_will_do = {
 				factor = 0
 				modifier = {
 					add = 10
-					has_completed_focus = CHL_the_spread_of_fascism
 				}
 			}
 			cost = 150
@@ -468,7 +466,6 @@ characters = {
 				original_tag = CHL
 			}
 			available = {
-				has_completed_focus = CHL_the_popular_front
 				NOT = {
 					OR = {
 						has_idea = CHL_salvador_allende						
@@ -534,7 +531,6 @@ characters = {
 					original_tag = CHL
 				}
 				available = {
-					has_completed_focus = CHL_the_popular_front
 					NOT = {
 						OR = {
 							has_idea = CHL_volodia_teitelboim

@@ -165,7 +165,6 @@ characters = {
 					limit = {
 						has_global_flag = por_lar_focus_tree
 					}
-					has_completed_focus = POR_allow_free_elections
 				}
 				else = { has_completed_focus = POR_hold_fair_elections }
 			}
@@ -186,7 +185,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_estado_novo
 				}
 				else = {
 					OR = {
@@ -325,7 +323,6 @@ characters = {
 				available = {	
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						has_completed_focus = POR_colonial_army
 					}
 					else = { has_completed_focus = POR_expand_overseas_recruitment }
 					NOT = { has_idea = POR_francisco_craveiro_lopes2 }
@@ -341,7 +338,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						has_completed_focus = POR_colonial_army
 					}
 					else = { has_completed_focus = POR_expand_overseas_recruitment }
 					NOT = { has_idea = POR_francisco_craveiro_lopes }				
@@ -703,7 +699,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						has_completed_focus = POR_allow_free_elections 
 					}
 					else = { has_completed_focus = POR_pave_the_path_to_progress }
 				}
@@ -744,7 +739,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					NOT = { has_completed_focus = POR_estado_novo } 
 				}
 				else = { has_government = communism }
 				if = {
@@ -804,8 +798,6 @@ characters = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
 						OR = {
-							has_completed_focus = POR_limited_self_rule 
-							has_completed_focus = POR_allow_free_elections 
 						}
 					}
 					else = { has_completed_focus = POR_pave_the_path_to_progress }
@@ -849,7 +841,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						has_completed_focus = POR_reorganization_of_the_communist_party 
 					}
 					else = { has_completed_focus = POR_portugals_path_to_marxism_leninism }
 				}
@@ -892,7 +883,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						has_completed_focus = POR_national_syndicalism 
 					}
 					else = { has_government = fascism }
 				}
@@ -936,7 +926,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						has_completed_focus = POR_popular_front
 					}
 					else = { has_completed_focus = POR_advance_the_cause_for_equality }
 					NOT = { has_idea = r56i_laws_gender_patriarchy } 
@@ -991,8 +980,6 @@ characters = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
 						OR = {
-							has_completed_focus = POR_appease_monarchists 
-							has_completed_focus = POR_a_royal_wedding 
 						}
 					}
 					else = { has_completed_focus = POR_study_flexible_defense_plans }
@@ -1038,7 +1025,6 @@ characters = {
 						limit = { has_focus_tree = r56_portuguese_focus }
 						has_completed_focus = POR_continue_the_public_works_r56
 					}
-					else = { has_completed_focus = POR_continue_the_public_works }
 					NOT = { has_government = communism }
 				}
 				cost = 75
@@ -1110,7 +1096,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						has_completed_focus = POR_concordat_with_the_holy_see 
 					}
 					else = {
 						OR = {
@@ -1163,7 +1148,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						NOT = { has_completed_focus = POR_popular_front }
 					}
 					else = { 
 						NOT = { has_completed_focus = POR_unite_against_salazar }
@@ -1204,8 +1188,6 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_completed_focus = POR_appease_monarchists 
-					has_completed_focus = POR_a_royal_wedding 
 				}
 			}
 			visible = { has_global_flag = por_lar_focus_tree }
@@ -1288,7 +1270,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						has_completed_focus = POR_national_syndicalism 
 					}
 					else = { has_completed_focus = POR_all_against_the_bolshevik_threat }
 				}
@@ -1322,7 +1303,6 @@ characters = {
 				available = {
 					if = {
 						limit = { has_global_flag = por_lar_focus_tree }
-						NOT = { has_completed_focus = POR_popular_front }
 					}
 					else = {
 						NOT = { has_completed_focus = POR_unite_against_salazar }
@@ -1370,7 +1350,6 @@ characters = {
 			visible = {
 				OR = {
 					has_completed_focus = POR_storm_the_national_assembly
-					has_completed_focus = POR_allow_free_elections
 				}
 			}
 		}
@@ -1400,7 +1379,6 @@ characters = {
 			visible = {
 				OR = {
 					has_completed_focus = POR_restore_the_empire
-					has_completed_focus = POR_restoration_of_the_monarchy
 				}
 			}
 		}
@@ -1490,7 +1468,6 @@ characters = {
 			visible = {
 				OR = {
 					has_completed_focus = POR_storm_the_national_assembly
-					has_completed_focus = POR_allow_free_elections
 				}
 			}
 		}
@@ -1903,7 +1880,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_portuguese_legion
 				}
 				else = {
 					OR = {
@@ -1930,7 +1906,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_ditadura_militar
 				}
 				else = { has_completed_focus = POR_restore_the_empire }
 			}
@@ -1951,7 +1926,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_national_syndicalism
 				}
 				else = { has_completed_focus = POR_all_against_the_bolshevik_threat }
 			}
@@ -1973,8 +1947,6 @@ characters = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
 					OR = {
-						has_completed_focus = POR_nationalize_industry
-						has_completed_focus = POR_british_industrial_investments
 					}
 				}
 				else = { has_completed_focus = POR_escalate_the_industrialization }
@@ -1996,7 +1968,6 @@ characters = {
 			available = { 
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_popular_front
 					 
 				}
 				else = { 
@@ -2023,7 +1994,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_unify_leftist_youth_wings
 				}
 				else = { has_completed_focus = POR_consolidate_the_revolution  } 
 			}
@@ -2044,7 +2014,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_allow_free_elections
 				}
 				else = { has_completed_focus = POR_modernize_the_junta_institutions }
 			}
@@ -2065,7 +2034,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_popular_front
 				}
 				else = { has_completed_focus = POR_end_the_educational_abyss }
 			}
@@ -2086,7 +2054,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_allow_free_elections
 				}
 				else = { has_completed_focus = POR_modernize_the_junta_institutions }
 			}
@@ -2107,7 +2074,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_national_gold_reserves
 				}
 				else = { has_completed_focus = POR_long_term_economic_planning  }
 			}
@@ -2129,7 +2095,6 @@ characters = {
 			available = {
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_strengthen_the_regime
 				}
 				else = { 
 					OR = {
@@ -2156,7 +2121,6 @@ characters = {
 			available = { 
 				if = {
 					limit = { has_global_flag = por_lar_focus_tree }
-					has_completed_focus = POR_second_navy_reequipment
 				}
 				else = { has_completed_focus = POR_continue_the_naval_expansion }
 				NOT = { has_government = communism } 

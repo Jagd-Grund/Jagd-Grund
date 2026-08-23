@@ -49,7 +49,7 @@ characters={
 	#	}
 	#}
 
-	SIA_phraya_phahon={
+	SIA_phraya_phahon_jg={
 		name="Phraya Phahon"
 		portraits={
 			civilian={
@@ -67,7 +67,7 @@ characters={
 		}
 		advisor={
 			slot = high_command
-			idea_token = SIA_phraya_phahon
+			idea_token = SIA_phraya_phahon_jg
 			ledger = army
 			allowed = {
 				original_tag = SIA
@@ -107,7 +107,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					has_idea = SIA_phraya_phahon
+					has_idea = SIA_phraya_phahon_jg
 				}
 			}
 			traits = {
@@ -130,7 +130,7 @@ characters={
 	}
 
 
-	SIA_direk_jayanama={
+	SIA_direk_jayanama_jg={
 		name="Direk Jayanama"
 		portraits={
 			civilian={
@@ -144,7 +144,7 @@ characters={
 			id=-1
 		}
 	}
-	SIA_pridi_banomyong={
+	SIA_pridi_banomyong_jg={
 		name="Pridi Banomyong"
 		portraits={
 			civilian={
@@ -160,7 +160,7 @@ characters={
 		}
 	}
 
-	SIA_plaek_phibunsongkhram={
+	SIA_plaek_phibunsongkhram_jg={
 		name="Plaek Phibunsongkhram"
 		portraits={
 			civilian={
@@ -174,7 +174,7 @@ characters={
 		}
 		advisor={
 			slot = army_chief
-			idea_token = SIA_plaek_phibunsongkhram
+			idea_token = SIA_plaek_phibunsongkhram_jg
 
 			cost = 100
 			allowed = {
@@ -265,10 +265,10 @@ characters={
 	#	}
 	#}
 	#relevant?SIA_phraya_chalermarkiart
-	SIA_munee_mahasanthana_vejayantarungsarit={
+	SIA_munee_mahasanthana_vejayantarungsarit_jg={
 		advisor={
 			slot = air_chief
-			idea_token = SIA_munee_mahasanthana_vejayantarungsarit
+			idea_token = SIA_munee_mahasanthana_vejayantarungsarit_jg
 			allowed = {
 				original_tag = SIA
 			}
@@ -288,10 +288,10 @@ characters={
 		}
 	}
 	#Phra Vechayanrangsarit
-	SIA_luang_atuegtevadej={
+	SIA_luang_atuegtevadej_jg={
 		advisor={
 			slot = air_chief
-			idea_token = SIA_luang_atuegtevadej
+			idea_token = SIA_luang_atuegtevadej_jg
 			allowed = {
 					original_tag = SIA
 				}
@@ -310,12 +310,12 @@ characters={
 			}
 		}
 	}
-	SIA_luang_tevaritpanluek={
+	SIA_luang_tevaritpanluek_jg={
 		advisor={
 			
 			
 			slot = air_chief
-			idea_token = SIA_luang_tevaritpanluek
+			idea_token = SIA_luang_tevaritpanluek_jg
 			allowed = {
 					original_tag = SIA
 				}
@@ -334,10 +334,10 @@ characters={
 			}
 		}
 	}
-	SIA_thawan_thamrongnawasawat={ #post war prime minister
+	SIA_thawan_thamrongnawasawat_jg={ #post war prime minister
 		advisor={
 			slot = navy_chief
-			idea_token = SIA_thawan_thamrongnawasawat
+			idea_token = SIA_thawan_thamrongnawasawat_jg
 			allowed = {
 				original_tag = SIA
 			}
@@ -373,7 +373,7 @@ characters={
 		}			
 	}
 	#SIA_luang_sinthusongkhramchai
-	SIA_phraya_wichanworajak={
+	SIA_phraya_wichanworajak_jg={
 		name="Phraya Wichanworajak"
 		portraits={
 			army={
@@ -382,7 +382,7 @@ characters={
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = SIA_phraya_wichanworajak
+			idea_token = SIA_phraya_wichanworajak_jg
 			allowed = {
 				original_tag = SIA
 			}
@@ -397,10 +397,10 @@ characters={
 	}
 	
 	#relevant?SIA_luang_supachalasai
-	SIA_sindh_kamalanavin={
+	SIA_sindh_kamalanavin_jg={
 		advisor={
 			slot = navy_chief
-			idea_token = SIA_sindh_kamalanavin
+			idea_token = SIA_sindh_kamalanavin_jg
 			allowed = {
 					original_tag = SIA
 				}
@@ -429,12 +429,12 @@ characters={
 			coordination_skill = 2
 		}		
 	}
-	SIA_luang_yuthasastr_kosol={
+	SIA_luang_yuthasastr_kosol_jg={
 		advisor={
 			
 			
 			slot = navy_chief
-			idea_token = SIA_luang_yuthasastr_kosol
+			idea_token = SIA_luang_yuthasastr_kosol_jg
 			allowed = {
 				original_tag = SIA
 			}
@@ -461,7 +461,7 @@ characters={
 			}
 			available = {
 				NOT = {
-					has_idea = SIA_luang_yuthasastr_kosol
+					has_idea = SIA_luang_yuthasastr_kosol_jg
 				}
 			}
 			traits = {
@@ -490,12 +490,12 @@ characters={
 		}
 	}	
 	#relevant?
-	SIA_manphya_khanphialong={
+	SIA_manphya_khanphialong_jg={
 		advisor={
 			cost = 100
 			
 			slot = theorist
-			idea_token = SIA_manphya_khanphialong
+			idea_token = SIA_manphya_khanphialong_jg
 			ledger = army
 			allowed = {
 				original_tag = SIA
@@ -515,12 +515,12 @@ characters={
 		
 	
 	#SIA_phra_silpasakrakorn
-	SIA_fuen_ritthakhanee={
+	SIA_fuen_ritthakhanee_jg={
 		advisor={
 			cost = 100
 			
 			slot = theorist
-			idea_token = SIA_fuen_ritthakhanee
+			idea_token = SIA_fuen_ritthakhanee_jg
 			ledger = air
 			allowed = {
 				original_tag = SIA
@@ -552,12 +552,12 @@ characters={
 			}
 		}
 	}	
-	SIA_sawat_phutianands={
+	SIA_sawat_phutianands_jg={
 		advisor={
 			cost = 100
 			
 			slot = theorist
-			idea_token = SIA_sawat_phutianands
+			idea_token = SIA_sawat_phutianands_jg
 			ledger = navy
 			allowed = {
 				original_tag = SIA
@@ -575,7 +575,7 @@ characters={
 		}
 		
 	}	
-	SIA_phin_choonhavan={
+	SIA_phin_choonhavan_jg={
 
 		name="Phin Choonhavan"
 		portraits={
@@ -594,10 +594,10 @@ characters={
 			logistics_skill = 3
 		}		
 	}
-	SIA_charun_rattanakun_seriroengrit={
+	SIA_charun_rattanakun_seriroengrit_jg={
 		advisor={
 			slot = high_command
-			idea_token = SIA_charun_rattanakun_seriroengrit
+			idea_token = SIA_charun_rattanakun_seriroengrit_jg
 			ledger = army
 			allowed = {
 				original_tag = SIA
@@ -627,7 +627,7 @@ characters={
 			logistics_skill = 2
 		}		
 	}
-	SIA_mangkorn_phromyothi={
+	SIA_mangkorn_phromyothi_jg={
 
 		name="Mangkorn Phromyothi"
 		portraits={
@@ -645,10 +645,10 @@ characters={
 			logistics_skill = 1
 		}		
 	}	
-	SIA_luang_chartnakrob={
+	SIA_luang_chartnakrob_jg={
 		advisor={
 			slot = high_command
-			idea_token = SIA_luang_chartnakrob
+			idea_token = SIA_luang_chartnakrob_jg
 			ledger = navy
 			allowed = {
 				original_tag = SIA
@@ -694,10 +694,10 @@ characters={
 #			}
 #		}
 #	}
-	SIA_jira_wichitsongkhram={
+	SIA_jira_wichitsongkhram_jg={
 		advisor={
 			slot = high_command
-			idea_token = SIA_jira_wichitsongkhram
+			idea_token = SIA_jira_wichitsongkhram_jg
 			ledger = army
 			allowed = {
 				original_tag = SIA
@@ -717,10 +717,10 @@ characters={
 			}
 		}
 	}
-	SIA_luang_kriengsakphichit={
+	SIA_luang_kriengsakphichit_jg={
 		advisor={
 			slot = high_command
-			idea_token = SIA_luang_kriengsakphichit
+			idea_token = SIA_luang_kriengsakphichit_jg
 			ledger = army
 			allowed = {
 				original_tag = SIA
@@ -749,7 +749,7 @@ characters={
 			logistics_skill = 2
 		}
 	}	
-	SIA_luang_prasityutthasin={
+	SIA_luang_prasityutthasin_jg={
 		name="Luang Prasityutthasin"
 		portraits={
 			army={
@@ -767,7 +767,7 @@ characters={
 			logistics_skill = 1
 		}
 	}	
-	SIA_luang_senanarong={
+	SIA_luang_senanarong_jg={
 		name="Luang Senanarong"
 		portraits={
 			army={
@@ -883,10 +883,10 @@ characters={
 	#	}
 	#}
 
-	SIA_chit_mansin_sinadyotharak={
+	SIA_chit_mansin_sinadyotharak_jg={
 		advisor={
 			slot = high_command
-			idea_token = SIA_chit_mansin_sinadyotharak
+			idea_token = SIA_chit_mansin_sinadyotharak_jg
 			ledger = army
 			allowed = {
 				original_tag = SIA
@@ -907,12 +907,12 @@ characters={
 		}
 	}
 
-	SIA_phraya_thayarnpikart={
+	SIA_phraya_thayarnpikart_jg={
 		advisor={
 			
 			
 			slot = high_command
-			idea_token = SIA_phraya_thayarnpikart
+			idea_token = SIA_phraya_thayarnpikart_jg
 			ledger = air
 				allowed = {
 					original_tag = SIA
@@ -941,8 +941,8 @@ characters={
 
 
 	#ADD AI for political advisors
-	SIA_seni_pramoj={
-		name=SIA_seni_pramoj
+	SIA_seni_pramoj_jg={
+		name=SIA_seni_pramoj_jg
 		portraits={
 			army={
 				large = GFX_Portrait_SIA_Seni_Pramoj
@@ -951,7 +951,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_seni_pramoj
+			idea_token = SIA_seni_pramoj_jg
 			allowed  = {
 				original_tag  = SIA
 			}
@@ -983,8 +983,8 @@ characters={
 			}
 		}
 	}
-	SIA_phayom_chulanont={
-		name=SIA_phayom_chulanont
+	SIA_phayom_chulanont_jg={
+		name=SIA_phayom_chulanont_jg
 		portraits={
 			army={
 				small="GFX_idea_minister_siam_phayom_chulanont"
@@ -992,7 +992,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_phayom_chulanont
+			idea_token = SIA_phayom_chulanont_jg
 			allowed  = {
 				original_tag  = SIA
 			}
@@ -1026,8 +1026,8 @@ characters={
 			}
 		}
 	}
-	SIA_Luang_Wichitwathakan={
-		name=SIA_Luang_Wichitwathakan
+	SIA_Luang_Wichitwathakan_jg={
+		name=SIA_Luang_Wichitwathakan_jg
 		portraits={
 			army={
 				small="GFX_idea_SIA_minister_Luang_Wichitwathakan"
@@ -1035,7 +1035,7 @@ characters={
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_Luang_Wichitwathakan
+			idea_token = SIA_Luang_Wichitwathakan_jg
 			allowed  = {
 				original_tag  = SIA
 			}
@@ -1067,10 +1067,10 @@ characters={
 			}
 		}
 	}	
-	SIA_Khuang_Aphaiwong={
+	SIA_Khuang_Aphaiwong_jg={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_Khuang_Aphaiwong
+			idea_token = SIA_Khuang_Aphaiwong_jg
 			allowed  = {
 					original_tag  = SIA
 				}
@@ -1078,17 +1078,17 @@ characters={
 					mediator 
 				}
 		}
-		name=SIA_Khuang_Aphaiwong
+		name=SIA_Khuang_Aphaiwong_jg
 		portraits={
 			army={
 				small="GFX_idea_minister_siam_Khuang_Aphaiwong"
 			}
 		}
 	}	
-	SIA_Muni_Mahasandana={
+	SIA_Muni_Mahasandana_jg={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_Muni_Mahasandana
+			idea_token = SIA_Muni_Mahasandana_jg
 			allowed  = {
 					original_tag  = SIA
 				}
@@ -1096,17 +1096,17 @@ characters={
 					captain_of_industry 
 				}
 		}
-		name=SIA_Muni_Mahasandana
+		name=SIA_Muni_Mahasandana_jg
 		portraits={
 			army={
 				small="GFX_idea_SIA_minister_Muni_Mahasandana"
 			}
 		}
 	}
-	SIA_Thawi_Bunyaket={
+	SIA_Thawi_Bunyaket_jg={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_Thawi_Bunyaket
+			idea_token = SIA_Thawi_Bunyaket_jg
 			allowed  = {
 					original_tag  = SIA
 				}
@@ -1114,17 +1114,17 @@ characters={
 					minister_of_education 
 				}
 		}
-		name=SIA_Thawi_Bunyaket
+		name=SIA_Thawi_Bunyaket_jg
 		portraits={
 			army={
 				small="GFX_idea_SIA_minister_Thawi_Bunyaket"
 			}
 		}
 	}
-	SIA_Leng_Srisomwong={
+	SIA_Leng_Srisomwong_jg={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_Leng_Srisomwong
+			idea_token = SIA_Leng_Srisomwong_jg
 			allowed  = {
 				original_tag  = SIA
 			}
@@ -1135,17 +1135,17 @@ characters={
 				factor = 2
 			}			
 		}
-		name=SIA_Leng_Srisomwong
+		name=SIA_Leng_Srisomwong_jg
 		portraits={
 			army={
 				small="GFX_idea_SIA_minister_Leng_Srisomwong"
 			}
 		}
 	}
-	SIA_Aduldej_Charat={
+	SIA_Aduldej_Charat_jg={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_Aduldej_Charat
+			idea_token = SIA_Aduldej_Charat_jg
 			allowed  = {
 				original_tag  = SIA
 			}
@@ -1165,17 +1165,17 @@ characters={
 				}				
 			}			
 		}
-		name=SIA_Aduldej_Charat
+		name=SIA_Aduldej_Charat_jg
 		portraits={
 			army={
 				small="GFX_idea_minister_siam_Aduldej_Charat"
 			}
 		}
 	}
-	SIA_Luang_Chuangsakram={
+	SIA_Luang_Chuangsakram_jg={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_Luang_Chuangsakram
+			idea_token = SIA_Luang_Chuangsakram_jg
 			allowed  = {
 				original_tag  = SIA
 			}
@@ -1186,17 +1186,17 @@ characters={
 				factor = 4
 			}			
 		}
-		name=SIA_Luang_Chuangsakram
+		name=SIA_Luang_Chuangsakram_jg
 		portraits={
 			army={
 				small="GFX_idea_minister_siam_Luang_Chuangsakram"
 			}
 		}
 	}
-	SIA_Pao_Pienlert_Boripanyutakit={
+	SIA_Pao_Pienlert_Boripanyutakit_jg={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_Pao_Pienlert_Boripanyutakit
+			idea_token = SIA_Pao_Pienlert_Boripanyutakit_jg
 			allowed  = {
 				original_tag  = SIA
 			}
@@ -1207,17 +1207,17 @@ characters={
 				factor = 1
 			}			
 		}
-		name=SIA_Pao_Pienlert_Boripanyutakit
+		name=SIA_Pao_Pienlert_Boripanyutakit_jg
 		portraits={
 			army={
 				small="GFX_idea_minister_siam_Pao_Pienlert_Boripanyutakit"
 			}
 		}
 	}
-	SIA_phra_prachonpadchanuk ={
+	SIA_phra_prachonpadchanuk_jg ={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_phra_prachonpadchanuk
+			idea_token = SIA_phra_prachonpadchanuk_jg
 			allowed  = {
 				original_tag  = SIA
 			}
@@ -1236,10 +1236,10 @@ characters={
 		}
 	}
 
-	SIA_naval_council ={
+	SIA_naval_council_jg ={
 		advisor={
 			slot = political_advisor
-			idea_token = SIA_naval_council
+			idea_token = SIA_naval_council_jg
 			allowed  = {
 				original_tag  = SIA
 			}

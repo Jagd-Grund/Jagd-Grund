@@ -745,7 +745,6 @@ characters={
 						OR = {
 							has_completed_focus = TUR_kemalist_socialist_theory 
 							has_completed_focus = TUR_readdress_the_montreux_convention 
-							has_completed_focus = TUR_anti_bolshevik_mediterranean_bloc 
 							and = {
 								has_completed_focus = TUR_democratic_capstone_focus 
 								has_country_leader = {

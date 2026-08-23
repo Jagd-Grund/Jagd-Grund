@@ -1293,7 +1293,7 @@ focus_tree = {
 		x = 36
 		y = -1
 			completion_reward = {
-					add_ideas = SIA_Luang_Wichitwathakan
+					add_ideas = SIA_Luang_Wichitwathakan_jg
 					add_political_power = 100
 				}
 				search_filters = { FOCUS_FILTER_POLITICAL }
@@ -3020,7 +3020,7 @@ focus_tree = {
 		x = 0
 		y = 1
 			completion_reward = {
-					activate_advisor = SIA_naval_council
+					activate_advisor = SIA_naval_council_jg
 				}
 				search_filters = { FOCUS_FILTER_RESEARCH }
 	}

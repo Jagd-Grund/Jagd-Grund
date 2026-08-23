@@ -507,7 +507,6 @@ SOV_mytishchy_machine_building_plant_organization = {
 	visible = {
 		IF = { 
 			limit = { FROM = { original_tag = ETH } } 
-			FROM = { has_completed_focus = ETH_mytishchi-ababa_plant }
 		}
 	}
 
@@ -979,7 +978,6 @@ SOV_rubin_design_bureau_organization = {
 	visible = {
 		IF = { 
 			limit = { FROM = { original_tag = ETH } } 
-			FROM = { has_completed_focus = ETH_soviet-ethiopian_trade_agreement }
 		}
 	}
 
@@ -1527,7 +1525,6 @@ SOV_mig_design_bureau_organization = {
 	visible = {
 		IF = { 
 			limit = { FROM = { original_tag = ETH } } 
-			FROM = { has_completed_focus = ETH_soviet-ethiopian_trade_agreement }
 		}
 		IF = { 
 			limit = {
@@ -2491,7 +2488,6 @@ SOV_gaz_organization = {
 	visible = {
 		IF = { 
 			limit = { FROM = { original_tag = ETH } } 
-			FROM = { has_completed_focus = ETH_soviet-ethiopian_trade_agreement }
 		}
 	}
 	
