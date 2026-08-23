@@ -6,7 +6,6 @@ POR_overseas_provinces = {
 
 		available = {
 			
-			has_completed_focus = POR_luso_tropicalism
 			AND = {
 				POR = {
 					controls_state = 540
@@ -28,7 +27,6 @@ POR_overseas_provinces = {
 			
 		}
 		visible = {
-			has_completed_focus = POR_luso_tropicalism
 		}
 		remove_effect = {
 			country_event = lar_portugal_overseas_provinces.1
@@ -40,7 +38,6 @@ POR_overseas_provinces = {
 		icon = infiltrate_state
 
 		available = {
-			has_completed_focus = POR_luso_tropicalism
 			AND = {
 				POR = {
 					controls_state = 544
@@ -63,7 +60,6 @@ POR_overseas_provinces = {
 		}
 		
 		visible = {
-			has_completed_focus = POR_luso_tropicalism
 		}
 		remove_effect = {			
 			country_event = lar_portugal_overseas_provinces.2
@@ -110,7 +106,6 @@ POR_arms_purchases = {
 			civilian_factory_use = 1
 		}
 		visible = {
-			has_completed_focus = POR_british_guns
 			NOT = {
 				has_war_with = ENG
 			}
@@ -199,7 +194,6 @@ POR_arms_purchases = {
 			civilian_factory_use = 1
 		}
 		visible = {
-			has_completed_focus = POR_british_guns
 			NOT = {
 				has_war_with = ENG
 			}
@@ -289,7 +283,6 @@ POR_arms_purchases = {
 			civilian_factory_use = 1
 		}
 		visible = {
-			has_completed_focus = POR_british_guns
 			NOT = {
 				has_war_with = ENG
 			}
@@ -379,7 +372,6 @@ POR_arms_purchases = {
 		}
 		
 		visible = {
-			has_completed_focus = POR_second_navy_reequipment
 			ENG = {
 				exists = yes
 				NOT = { has_war_with = ROOT }
@@ -432,7 +424,6 @@ POR_arms_purchases = {
 		}
 		
 		visible = {
-			has_completed_focus = POR_second_navy_reequipment
 			ITA = {
 				exists = yes
 				NOT = { has_war_with = ROOT }
@@ -1869,7 +1860,6 @@ POR_naval_blockade = {
 
 		visible = {
 			POR = {
-				has_completed_focus = POR_refuse_the_naval_blockade
 			}
 			NOT = { 
 				has_country_flag = POR_evade_blockade_flag 
@@ -2049,7 +2039,6 @@ POR_iberian_summit = {
 			country_exists = POR
 			POR = { 
 				is_in_faction = no
-				has_completed_focus = POR_iberian_summit
 				NOT = { has_government = communism }
 				NOT = { has_government = democratic }
 			}
@@ -2078,7 +2067,6 @@ POR_iberian_summit = {
 			base = 0
 			modifier = {
 				add = 1
-				has_completed_focus = POR_send_assistance
 				OR = {
 					GER = {
 						has_war = yes 
@@ -2154,7 +2142,6 @@ POR_iberian_summit = {
 			country_exists = POR
 			POR = {
 				is_in_faction = no
-				has_completed_focus = POR_iberian_summit
 				NOT = { has_government = fascism }
 				NOT = { has_government = communism }
 			}
@@ -2191,7 +2178,6 @@ POR_iberian_summit = {
 			modifier = {
 				add = 1
 				POR = {
-					has_completed_focus = POR_allow_free_elections
 				}					
 				OR = {
 					ENG = {
@@ -2380,14 +2366,11 @@ POR_monarchist_cause = {
 			base = 1
 		}
 		visible = {
-			has_completed_focus = POR_a_royal_wedding
-			NOT = { has_completed_focus = POR_the_empire_of_brazil }
 			country_exists = BRA
 		}
 
 		cancel_trigger = {
 			OR = {
-				has_completed_focus = POR_the_empire_of_brazil
 				has_war_with = BRA
 				BRA = { neutrality < -0.15 }
 			}
@@ -2438,7 +2421,6 @@ POR_monarchist_cause = {
 		cancel_trigger = {
 			OR = {
 				NOT = { has_country_flag = POR_portugal_stirring_brazilian_monarchists_flag }
-				POR = { has_completed_focus = POR_the_empire_of_brazil }
 				neutrality < -0.15
 				has_war_with = POR
 			}
@@ -2479,11 +2461,9 @@ POR_monarchist_cause = {
 				has_country_flag = POR_brazilian_monarchists_stirred_flag
 			}
 			country_exists = POR
-			POR = { NOT = { has_completed_focus = POR_the_empire_of_brazil } }		
 		}
 
 		cancel_trigger = {
-			POR = { has_completed_focus = POR_the_empire_of_brazil }
 		}
 
 		modifier = {
@@ -2519,12 +2499,9 @@ POR_monarchist_cause = {
 			base = 1
 		}
 		visible = {
-			has_completed_focus = POR_a_royal_wedding
-			NOT = { has_completed_focus = POR_restoration_of_the_monarchy }
 		}
 
 		cancel_trigger = {
-			has_completed_focus = POR_restoration_of_the_monarchy
 		}
 
 		modifier = {
@@ -2552,7 +2529,6 @@ POR_prospect_for_resources = {
 }
 
 		available = {
-			has_completed_focus = POR_extraction_industries
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 112
 			controls_state = 112
@@ -2608,7 +2584,6 @@ POR_prospect_for_resources = {
 }
 
 		available = {
-			has_completed_focus = POR_extraction_industries
 			num_of_civilian_factories_available_for_projects > 1
 			owns_state = 795
 			controls_state = 795
@@ -2724,7 +2699,6 @@ POR_the_spanish_civil_war = {
 			SPR_scw_in_progress = yes
 			country_exists = SPD
 			NOT = { has_war_with = SPD }
-			has_completed_focus = POR_they_need_our_help
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -2803,7 +2777,6 @@ POR_the_spanish_civil_war = {
 			SPR_scw_in_progress = yes
 			country_exists = SPA
 			NOT = { has_war_with = SPA }
-			has_completed_focus = POR_send_assistance
 		}
 		complete_effect = {
 			hidden_effect = {
@@ -2882,7 +2855,6 @@ POR_the_spanish_civil_war = {
 			SPR_scw_in_progress = yes
 			country_exists = SPB
 			NOT = { has_war_with = SPB }
-			has_completed_focus = POR_join_the_carlist_fight
 		}
 		complete_effect = {
 			hidden_effect = {

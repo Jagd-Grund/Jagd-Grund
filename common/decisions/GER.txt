@@ -13190,7 +13190,6 @@ GER_aid_hun_rom_democratic_civil_war = {
 
 		#Available if democratic civil war
 		visible = {
-			#has_completed_focus = GER_align_hungary #TODO_Danne: MM: Old focuses in the industrial branch, probable needs a different one if we are reusing these decisions
 			HUN = {
 				has_civil_war = yes
 			}
@@ -13248,7 +13247,6 @@ GER_aid_hun_rom_democratic_civil_war = {
 
 		#Available if democratic civil war
 		visible = {
-			#has_completed_focus = GER_align_romania #TODO_Danne: MM: Old focuses in the industrial branch, probable needs a different one if we are reusing these decisions
 			ROM = {
 				has_civil_war = yes
 			}

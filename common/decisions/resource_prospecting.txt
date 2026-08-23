@@ -8695,7 +8695,6 @@ prospect_for_resources = {
 				limit = {
 					original_tag = PAR
 				}
-				has_completed_focus = GUAY_exploit_mineral_wealth
 			}
 			else = {
 				hidden_trigger = {

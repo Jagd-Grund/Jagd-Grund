@@ -144,7 +144,6 @@ USA_foreign_support = {
 	visible = {
 		always = no
 		#OR = {
-		#	has_completed_focus = USA_invite_foreign_support
 		#	tag = CSA
 		#}
 	}
@@ -212,7 +211,6 @@ USA_honor_the_confederacy = {
 			limit = {
 				original_tag = CSA
 			}
-			has_completed_focus = CSA_restablish_the_confederate_army
 		}
 	}
 }

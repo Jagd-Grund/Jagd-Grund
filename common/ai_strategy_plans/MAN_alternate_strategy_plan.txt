@@ -186,7 +186,6 @@ MAN_we_are_japan_now = {
 		has_completed_focus = MAN_alliance_with_the_kwantung_army
 		JAP = {
 			OR = {
-				has_completed_focus = JAP_purge_the_kodoha_faction
 				has_completed_focus = JAP_support_the_kodoha_faction
 			}
 		}

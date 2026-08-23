@@ -368,7 +368,6 @@ intelligence_agency = {
 		NOT = {
 			has_government = fascism
 		}
-		has_completed_focus = SWI_buero_ha
 	}
 	
 	default = { 		
@@ -376,7 +375,6 @@ intelligence_agency = {
 		NOT = {
 			has_government = fascism
 		}
-		has_completed_focus = SWI_buero_ha
 	} 
 }
 
@@ -387,13 +385,11 @@ intelligence_agency = {
 	
 	available = { 
 		tag = SWI
-		has_completed_focus = SWI_federal_police
 
 	}
 	
 	default = { 		
 		tag = SWI
-		has_completed_focus = SWI_federal_police
 	} 
 }
 

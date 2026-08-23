@@ -152,8 +152,6 @@ ROM_historical_step_2 = {
 			}
 		}
 		ROM = {
-			has_completed_focus = ROM_strengthen_the_sentinels
-			has_completed_focus = ROM_the_royal_guard
 		}
 		76 = {
 			NOT = {

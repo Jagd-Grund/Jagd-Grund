@@ -10,8 +10,6 @@ REBORN_investments_category = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_agricultural_investments
-				has_completed_focus = GEN_industrial_investments
 			}
 		}
 		
@@ -59,8 +57,6 @@ REBORN_investments_category = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_agricultural_investments
-				has_completed_focus = GEN_industrial_investments
 			}
 		}
 		
@@ -108,8 +104,6 @@ REBORN_investments_category = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_agricultural_investments
-				has_completed_focus = GEN_industrial_investments
 			}
 		}
 		
@@ -158,8 +152,6 @@ REBORN_investments_category = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_agricultural_investments
-				has_completed_focus = GEN_industrial_investments
 			}
 		}
 		
@@ -192,7 +184,6 @@ REBORN_investments_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_industrial_investments
 		}
 		
 		modifier = {
@@ -242,7 +233,6 @@ REBORN_investments_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_agricultural_investments
 		}
 		
 		modifier = {
@@ -281,7 +271,6 @@ REBORN_investments_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_invite_foreign_investors
 		}
 
 		days_remove = 50
@@ -355,7 +344,6 @@ economy_decisions = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_peace_in_world
 		}
 
 		modifier = {
@@ -391,7 +379,6 @@ economy_decisions = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_peace_in_world
 		}
 
 		modifier = {
@@ -423,7 +410,6 @@ propaganda_efforts = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_antiwar_propaganda
 		}
 
 		fire_only_once = no
@@ -563,8 +549,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_liberia_join_allies
-				has_completed_focus = GEN_claim_west_africa
 			}
 
 			NOT = { has_country_flag = requested_british_colonies }
@@ -601,8 +585,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_liberia_join_allies
-				has_completed_focus = GEN_claim_west_africa
 			}
 
 			NOT = { has_country_flag = requested_french_colonies }
@@ -663,7 +645,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_SIA_peaceful_expansion1
 			}
 
 			NOT = { has_country_flag = SIA_requested_french_claims }
@@ -744,7 +725,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_SIA_aggressive_expansion1
 			}
 
 			NOT = { has_country_flag = SIA_demanded_french_claims }
@@ -825,7 +805,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_SIA_aggressive_expansion2
 			}
 
 			NOT = { has_country_flag = SIA_demanded_vietnam }
@@ -906,7 +885,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_SIA_aggressive_expansion2
 			}
 
 			NOT = { has_country_flag = SIA_demanded_singapore }
@@ -987,7 +965,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_SIA_aggressive_expansion3
 			}
 			NOT = {
 				owns_state = 288
@@ -1070,7 +1047,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_SIA_aggressive_expansion3
 			}
 			NOT = {
 				owns_state = 325
@@ -1153,7 +1129,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_SIA_peaceful_expansion2
 			}
 			NOT = { has_country_flag = SIA_requested_vietnam }
 		}
@@ -1233,7 +1208,6 @@ political_actions = {
 
 		visible = {
 			OR = {
-				has_completed_focus = GEN_SIA_peaceful_expansion2
 			}
 
 			NOT = { has_country_flag = SIA_requested_singapore }
@@ -1521,7 +1495,6 @@ REBORN_strategic_preparations_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_begin_tank_development
 		}
 
 		modifier = {
@@ -1762,7 +1735,6 @@ REBORN_puppet_interactions_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_we_are_our_overlords_arsenal
 		}
 
 		modifier = {
@@ -1804,7 +1776,6 @@ REBORN_path_to_freedom_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_establish_our_resistance
 			NOT = { has_country_flag = independence_declared }
 		}
 
@@ -1909,7 +1880,6 @@ REBORN_path_to_freedom_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_work_with_internal_resistance_groups
 			NOT = { has_country_flag = independence_declared }
 		}
 
@@ -1967,7 +1937,6 @@ REBORN_path_to_freedom_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_work_with_internal_resistance_groups
 			NOT = { has_country_flag = independence_declared }
 		}
 
@@ -2016,7 +1985,6 @@ REBORN_path_to_freedom_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_establish_our_resistance
 			NOT = { has_country_flag = independence_declared }
 		}
 
@@ -2137,7 +2105,6 @@ REBORN_path_to_freedom_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_shatter_our_chains
 			NOT = { has_country_flag = independence_declared }
 		}
 
@@ -2157,7 +2124,6 @@ REBORN_path_to_freedom_category = {
 			hidden_effect = {
 				set_country_flag = independence_declared
 				if = {
-					limit = { has_completed_focus = GEN_history_needs_a_push }
 					add_popularity = {
 					    ideology = communism
 					    popularity = 0.35
@@ -2169,7 +2135,6 @@ REBORN_path_to_freedom_category = {
 					complete_national_focus = GEN_go_communist
 				}
 				if = {
-					limit = { has_completed_focus = GEN_liberty_or_death }
 					add_popularity = {
 					    ideology = democratic
 					    popularity = 0.35
@@ -2181,7 +2146,6 @@ REBORN_path_to_freedom_category = {
 					complete_national_focus = GEN_go_democratic
 				}
 				if = {
-					limit = { has_completed_focus = GEN_we_are_not_yet_lost }
 					add_popularity = {
 					    ideology = neutrality
 					    popularity = 0.35
@@ -2193,7 +2157,6 @@ REBORN_path_to_freedom_category = {
 					complete_national_focus = GEN_go_neutral
 				}
 				if = {
-					limit = { has_completed_focus = GEN_revolutionaries_against_the_revolution }
 					add_popularity = {
 					    ideology = fascism
 					    popularity = 0.35
@@ -2250,7 +2213,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_bloodless_resolution
 			country_exists = GEO
 			NOT = { has_global_flag = form_transcaucasia_flag }
 			NOT = { tag = GEO }
@@ -2335,7 +2297,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_bloodless_resolution
 			country_exists = ARM
 			NOT = { has_global_flag = form_transcaucasia_flag }
 			NOT = { tag = ARM }
@@ -2420,7 +2381,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_bloodless_resolution
 			country_exists = AZR
 			NOT = { has_global_flag = form_transcaucasia_flag }
 			NOT = { tag = AZR }
@@ -2559,7 +2519,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_bloodless_resolution
 			country_exists = GEO
 			NOT = { has_global_flag = form_transcaucasia_flag }
 			NOT = { tag = GEO }
@@ -2656,7 +2615,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_bloodless_resolution
 			country_exists = ARM
 			NOT = { has_global_flag = form_transcaucasia_flag }
 			NOT = { tag = ARM }
@@ -2749,7 +2707,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_bloodless_resolution
 			country_exists = AZR
 			NOT = { has_global_flag = form_transcaucasia_flag }
 			NOT = { tag = AZR }
@@ -2790,7 +2747,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_free_the_kurds
 			NOT = { has_global_flag = release_iranian_kurdistan_flag }
 			KUR = {
 				is_puppet_of = ROOT
@@ -2825,7 +2781,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_free_the_kurds
 			NOT = { has_global_flag = release_iraqi_kurdistan_flag }
 			NOT = {
 				AND = {
@@ -2880,7 +2835,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_free_the_kurds
 			NOT = { has_global_flag = release_syrian_kurdistan_flag }
 			KUR = {
 				is_puppet_of = ROOT
@@ -2924,7 +2878,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_reunite_azeri
 			NOT = { has_global_flag = release_iranian_puppet_flag }
 			OR = {	
 				is_debug = yes
@@ -2986,7 +2939,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_Liberate_the_Armenians
 			NOT = { has_global_flag = split_turkey_flag }
 		}
 
@@ -3052,7 +3004,6 @@ form_transcaucasus_category = {
 		}
 
 		visible = {
-			has_completed_focus = GEN_Liberate_the_Armenians
 			NOT = { has_global_flag = split_turkey_flag }
 			OR = {	
 				is_debug = yes
@@ -3183,7 +3134,6 @@ form_rattanakosin_kingdom_category = {
 
 		visible = {
 			has_global_flag = form_rattanakosin_kingdom_flag
-			has_completed_focus = GEN_SIA_aggressive_expansion3
 		}
 
 		fire_only_once = yes
@@ -3222,7 +3172,6 @@ form_rattanakosin_kingdom_category = {
 
 		visible = {
 			has_global_flag = form_rattanakosin_kingdom_flag
-			has_completed_focus = GEN_SIA_aggressive_expansion3
 		}
 
 		fire_only_once = yes
@@ -3257,7 +3206,6 @@ REBORN_communist_uprisings_category = {
 		icon = generic_propaganda
 
 		visible = {
-			has_completed_focus = GEN_SIA_communist_uprisings
 			INS = {is_subject = yes}
 			NOT = { 
 				AND = {
@@ -3299,7 +3247,6 @@ REBORN_communist_uprisings_category = {
 					}
 					set_country_flag = independence_declared
 					if = {
-						limit = { has_completed_focus = GEN_history_needs_a_push }
 						add_popularity = {
 							ideology = communism
 							popularity = 0.35
@@ -3311,7 +3258,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_communist
 					}
 					if = {
-						limit = { has_completed_focus = GEN_liberty_or_death }
 						add_popularity = {
 							ideology = democratic
 							popularity = 0.35
@@ -3323,7 +3269,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_democratic
 					}
 					if = {
-						limit = { has_completed_focus = GEN_we_are_not_yet_lost }
 						add_popularity = {
 							ideology = neutrality
 							popularity = 0.35
@@ -3335,7 +3280,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_neutral
 					}
 					if = {
-						limit = { has_completed_focus = GEN_revolutionaries_against_the_revolution }
 						add_popularity = {
 							ideology = fascism
 							popularity = 0.35
@@ -3366,7 +3310,6 @@ REBORN_communist_uprisings_category = {
 		icon = generic_propaganda
 
 		visible = {
-			has_completed_focus = GEN_SIA_communist_uprisings
 			RAJ = {is_subject = yes}
 			NOT = { 
 				AND = {
@@ -3408,7 +3351,6 @@ REBORN_communist_uprisings_category = {
 					}
 					set_country_flag = independence_declared
 					if = {
-						limit = { has_completed_focus = GEN_history_needs_a_push }
 						add_popularity = {
 							ideology = communism
 							popularity = 0.35
@@ -3420,7 +3362,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_communist
 					}
 					if = {
-						limit = { has_completed_focus = GEN_liberty_or_death }
 						add_popularity = {
 							ideology = democratic
 							popularity = 0.35
@@ -3432,7 +3373,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_democratic
 					}
 					if = {
-						limit = { has_completed_focus = GEN_we_are_not_yet_lost }
 						add_popularity = {
 							ideology = neutrality
 							popularity = 0.35
@@ -3444,7 +3384,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_neutral
 					}
 					if = {
-						limit = { has_completed_focus = GEN_revolutionaries_against_the_revolution }
 						add_popularity = {
 							ideology = fascism
 							popularity = 0.35
@@ -3475,7 +3414,6 @@ REBORN_communist_uprisings_category = {
 		icon = generic_propaganda
 
 		visible = {
-			has_completed_focus = GEN_SIA_communist_uprisings
 			PHI = {is_subject = yes}
 			NOT = { 
 				AND = {
@@ -3517,7 +3455,6 @@ REBORN_communist_uprisings_category = {
 					}
 					set_country_flag = independence_declared
 					if = {
-						limit = { has_completed_focus = GEN_history_needs_a_push }
 						add_popularity = {
 							ideology = communism
 							popularity = 0.35
@@ -3529,7 +3466,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_communist
 					}
 					if = {
-						limit = { has_completed_focus = GEN_liberty_or_death }
 						add_popularity = {
 							ideology = democratic
 							popularity = 0.35
@@ -3541,7 +3477,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_democratic
 					}
 					if = {
-						limit = { has_completed_focus = GEN_we_are_not_yet_lost }
 						add_popularity = {
 							ideology = neutrality
 							popularity = 0.35
@@ -3553,7 +3488,6 @@ REBORN_communist_uprisings_category = {
 						complete_national_focus = GEN_go_neutral
 					}
 					if = {
-						limit = { has_completed_focus = GEN_revolutionaries_against_the_revolution }
 						add_popularity = {
 							ideology = fascism
 							popularity = 0.35

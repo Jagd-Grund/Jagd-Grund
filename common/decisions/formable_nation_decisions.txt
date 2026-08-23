@@ -415,7 +415,6 @@ form_gran_colombia_category = {
 			#		tag = PRU
 			#	}
 			#	NOT = {
-			#		has_completed_focus = PRU_incaism
 			#	}
 			#}
 			OR = {
@@ -455,7 +454,6 @@ form_gran_colombia_category = {
 			if = {
 				limit = { original_tag = VEN }
 				NOT = {
-					has_completed_focus = VEN_push_north
 				}
 			}
 		}
@@ -780,7 +778,6 @@ form_austria_hungary_category = {
 
 		visible = {
 			tag = HUN
-			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
 			NOT = { has_global_flag = reintegrate_the_empire_flag }
 		}
 
@@ -1297,7 +1294,6 @@ form_ottoman_empire_category = {
 				limit = {
 					original_tag = EGY
 				}
-				has_completed_focus = EGY_rightful_sucessor_to_the_empire
 			}
 		}
 
@@ -5873,7 +5869,6 @@ form_polynesia_category = {
 				is_subject = no
 				has_autonomy_state = autonomy_dominion #New Zealand should be able to do it
 			}
-			has_completed_focus = NZL_australian_nzl_agreement
 			hidden_trigger = {
 				NOT = { has_country_flag = is_demanding_flag }
 				any_country = {
@@ -5925,7 +5920,6 @@ form_polynesia_category = {
 		visible = {
 			original_tag = NZL
 			NOT = { has_global_flag = form_polynesia_flag }
-			has_completed_focus = NZL_australian_nzl_agreement
 			hidden_trigger = {
 				NOT = { has_country_flag = is_demanding_flag }
 				any_country = {
@@ -8454,7 +8448,6 @@ form_ethiopian_empire_category  = {
 		}
 
 		visible = {
-			has_completed_focus = ETH_restore_the_empire_of_axum
 			NOT = { has_global_flag = form_axum_flag }
 		}
 
@@ -8551,7 +8544,6 @@ form_ethiopian_empire_category  = {
 		}
 
 		visible = {
-			has_completed_focus = ETH_the_one_true_heir_of_solomon
 			NOT = { has_global_flag = form_empire_of_solomon_flag }
 		}
 
@@ -8659,7 +8651,6 @@ form_ethiopian_empire_category  = {
 		}
 
 		visible = {
-			has_completed_focus = ETH_jah
 			NOT = { has_global_flag = form_empire_of_zion_flag }
 		}
 
@@ -9125,7 +9116,6 @@ form_horn_of_africa_africa_category = {
 				limit = {
 					original_tag = ETH
 				}
-				has_completed_focus = ETH_develop_the_horn_of_africa
 				controls_state = 842 # Tigray
 				controls_state = 843 # Wello
 				controls_state = 908 # Afar
@@ -9156,7 +9146,6 @@ form_horn_of_africa_africa_category = {
 						original_tag = GBA
 					}
 				}
-				has_completed_focus = HOA_proclaim_east-african_hegemony
 				controls_state = 842 # Tigray
 				controls_state = 843 # Wello
 				controls_state = 908 # Afar
@@ -9199,7 +9188,6 @@ form_horn_of_africa_africa_category = {
 				limit = {
 					original_tag = ETH
 				}
-				has_completed_focus = ETH_develop_the_horn_of_africa
 			}
 			ELSE_IF = {
 				limit = {
@@ -9214,7 +9202,6 @@ form_horn_of_africa_africa_category = {
 						original_tag = GBA
 					}
 				}
-				has_completed_focus = HOA_proclaim_east-african_hegemony
 			}
 			OR = {
 				original_tag = ETH # Ethiopia

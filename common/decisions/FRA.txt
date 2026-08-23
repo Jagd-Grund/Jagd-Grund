@@ -145,7 +145,6 @@ political_actions = {
 			has_government = neutrality
 			OR = {
 				has_completed_focus = FRA_our_natural_borders
-				has_completed_focus = FRA_split_belgium
 			}
 		}
 		highlight_states = {

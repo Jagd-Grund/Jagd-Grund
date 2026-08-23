@@ -20,7 +20,6 @@ form_united_netherlands_category2 = {
 #	}
 #
 #	visible = {
-#		has_completed_focus = HOL_prepare_population_for_war		
 #	}
 #}
 

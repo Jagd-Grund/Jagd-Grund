@@ -736,7 +736,6 @@ peoples_war = {
       #          has_government = communism
       #          AND = {
       #              original_tag = INS
-      #              has_completed_focus = INS_underground_revolution
       #          }
       #      }
       #  }

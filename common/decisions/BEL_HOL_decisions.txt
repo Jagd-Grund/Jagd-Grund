@@ -65,7 +65,6 @@ political_actions = {
 
 	# 	available = {
 	# 		OR = {
-	# 			has_completed_focus = BEL_stay_neutral
 	# 			has_country_flag = BEL_declared_neutrality
 	# 			has_government = communism
 	# 			has_government = fascism
@@ -293,7 +292,6 @@ war_measures = {
 #
 #		visible = {
 #			has_government = fascism
-#			has_completed_focus = HOL_prepare_population_for_war
 #			6 = {
 #				CONTROLLER = {
 #					tag = BEL
@@ -346,7 +344,6 @@ war_measures = {
 #		icon = generic_ignite_civil_war
 #		visible = {
 #			has_government = fascism
-#			has_completed_focus = HOL_prepare_population_for_war
 #		}
 #
 #		allowed = {

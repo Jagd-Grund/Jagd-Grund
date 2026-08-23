@@ -6427,7 +6427,6 @@ leader_traits = {
 			factor = 1
 			modifier = {
 				tag = HUN
-				NOT = { has_completed_focus = HUN_invite_the_habsburg_prince }
 				factor = 0
 			}
 		}

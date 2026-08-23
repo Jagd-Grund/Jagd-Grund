@@ -1833,7 +1833,6 @@ JAP_southern_expansion = {
 	#	}
 #
 	#	visible = {
-	#		has_completed_focus = JAP_strike_south_doctrine
 	#	}
 #
 	#	fire_only_once = yes
@@ -4896,7 +4895,6 @@ prospect_for_resources = {
 	#	visible = {
 	#		OR = {
 	#			has_completed_focus = JAP_sea_exploit_southern_resource_area
-	#			has_completed_focus = JAP_exploit_the_southern_resource_area
 	#		}
 	#		671 = {
 	#			NOT = {

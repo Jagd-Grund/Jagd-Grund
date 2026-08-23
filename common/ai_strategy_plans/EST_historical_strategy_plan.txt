@@ -90,10 +90,7 @@ EST_baltic_entente = {
 	enable = {
 		original_tag = EST
 		has_dlc = "No Step Back"
-		has_game_rule = {
-			rule = EST_focus_tree_selection
-			option = STANDARD_TREE
-		}
+
 		OR = {
 			has_country_flag = EST_AI_RANDOM_DEMOCRATIC
 			has_game_rule = {

@@ -5695,7 +5695,6 @@ focus_tree = {
 				}
 				ETH = {
 					NOT = {
-						has_completed_focus = ETH_organization_of_african_unity
 					}
 				}
 			}
@@ -6660,7 +6659,6 @@ focus_tree = {
 					AND = {
 						has_dlc = "La Resistance"
 						POR = {
-							has_completed_focus = POR_concordat_with_the_holy_see
 						}
 					}
 				}

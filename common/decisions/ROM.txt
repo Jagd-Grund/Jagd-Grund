@@ -70,7 +70,6 @@ ROM_balance_of_power = {
 #     ai_will_do = { factor = 1 }
 
  #    available = {
-  #       has_completed_focus = ROM_placebo16
   #   }
 
   #   complete_effect = {

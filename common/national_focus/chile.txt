@@ -2729,7 +2729,6 @@ focus_tree = {
 					AND = {
 						has_dlc = "La Resistance"
 						POR = {
-							has_completed_focus = POR_concordat_with_the_holy_see
 						}
 					}
 				}
@@ -7641,7 +7640,6 @@ focus_tree = {
 					AND = {
 						has_dlc = "La Resistance"
 						POR = {
-							has_completed_focus = POR_concordat_with_the_holy_see
 						}
 					}
 				}
@@ -7733,7 +7731,6 @@ focus_tree = {
 					AND = {
 						has_dlc = "La Resistance"
 						POR = {
-							has_completed_focus = POR_concordat_with_the_holy_see
 						}
 					}
 				}

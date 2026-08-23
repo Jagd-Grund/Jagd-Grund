@@ -44,19 +44,16 @@ political_actions = {
 	#		modifier = {
 	#			factor = 2
 	#			RAJ = {
-	#				has_completed_focus = RAJ_Indian_National_Congress
 	#			}
 	#		}
 	#		modifier = {
 	#			factor = 5
 	#			RAJ = {
-	#				has_completed_focus = r56_RAJ_revolt_against_the_oppressors_showcase
 	#			}
 	#		}
 	#		modifier = {
 	#			factor = 10
 	#			RAJ = {
-	#				has_completed_focus = RAJ_Independent_Labour_Party
 	#			}
 	#		}
 	#		modifier = {
@@ -9124,7 +9121,6 @@ ENG_imperial_conference_decision = {
 				NZL = { exists = yes }
 				AND = {
 					RAJ = { is_subject_of = ENG }
-					has_completed_focus = ENG_indian_autonomy
 				}
 			}
 		}
@@ -9143,7 +9139,6 @@ ENG_imperial_conference_decision = {
 			set_country_flag = ENG_imperial_conference_discussion_in_progress
 			if = {
 				limit = {
-					NOT = { has_completed_focus = ENG_indian_autonomy }
 				}
 				custom_effect_tooltip = ENG_indian_autonomy_tt
 			}

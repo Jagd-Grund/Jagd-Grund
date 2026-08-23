@@ -70,7 +70,6 @@ HUN_historical_post_bled = {
 	enable = {
 		original_tag = HUN
 		HUN_is_on_historical_plan_trigger = yes
-		has_completed_focus = HUN_bled_agreement
 	}
 	abort = {
 		GER = {
@@ -116,9 +115,7 @@ HUN_historical_war_time = {
 	enable = {
 		original_tag = HUN
 		HUN_is_on_historical_plan_trigger = yes
-		has_completed_focus = HUN_reaffirm_territorial_claims
 		GER = {
-			has_completed_focus = GER_second_vienna_award
 		}
 	}
 	abort = {

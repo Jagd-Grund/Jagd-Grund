@@ -871,9 +871,7 @@ POR_towards_a_greater_portugal = {
 						BRA = {
 							NOT = {
 								has_completed_focus = BRA_romanticize_the_old_empire
-								has_completed_focus = bra_monarquia_focus
 								has_completed_focus = BRA_estado_novo
-								has_completed_focus = bra_quereismo
 							}
 						}
 					}
@@ -1920,8 +1918,6 @@ POR_together_against_salazar = {
 				if = {
 					limit = { has_global_flag = sov_old_focus_tree }
 					OR = {
-						has_completed_focus = SOV_great_purge
-						has_completed_focus = SOV_trotskyite_victory
 					}
 				} 
 				else = { has_completed_focus = SOV_the_path_of_marxism_leninism }

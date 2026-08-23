@@ -94,10 +94,7 @@ LIT_historical_r56 = { #r56 tree
 			NOT = {
 				has_dlc = "No Step Back"
 			}
-			has_game_rule = {
-				rule = LIT_focus_tree_selection
-				option = R56_TREE
-			}
+
 		}
 		OR = {
 			AND = {
@@ -169,10 +166,7 @@ LIT_democratic = {
 
 	enable = {
 		has_dlc = "No Step Back"
-		has_game_rule = {
-			rule = LIT_focus_tree_selection
-			option = STANDARD_TREE
-		}
+
 		OR = {
 			has_country_flag = LIT_AI_RANDOM_DEMOCRATIC
 			has_game_rule = {
