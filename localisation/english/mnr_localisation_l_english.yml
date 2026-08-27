@@ -595,90 +595,23 @@ mnrpuppet.5.a:0 "This is getting out of hand!"
 
 ###CATEGORIES
 
-REBORN_investments_category:0 "Economic Investments"
-REBORN_investments_category_desc:0 "With our new budding industry we are open to take advantage of investment opportunities that will speed along the process of modernizing our nation."
-
-REBORN_strategic_preparations_category:0 "Strategic Preparations"
-REBORN_strategic_preparations_category_desc:0 "The Great War was a military tragedy of immense proportions. The idea that there will not be a second World War is a naive and foolish poisition. If there should be a second Great War we best be prepared to face it, lest we crumble like the empires of old."
-
-REBORN_puppet_interactions_category:0 "Puppet Interactions"
-REBORN_puppet_interactions_category_desc:0 "In the empire everyone has their part to play- let it never be said that we did not play our's."
-
-REBORN_path_to_freedom_category:0 "The Path to Freedom"
-REBORN_path_to_freedom_category_desc:0 "For too long have we been exploited by our master. We will organize a mighty resistance, take up arms, and throw him out!"
-
 REBORN_change_focuses_category:0 "Switch All Focus Trees to the Generic Tree"
-
-REBORN_communist_uprisings_category:0 "The World Revolution"
 
 ###DECISIONS
 
 GEN_decn_switch_all_trees:0 "Switch All Focus Trees to the Generic Tree"
 
-GEN_decn_light_investments:0 "Invest in Light Industry"
-GEN_decn_heavy_investments:0 "Invest in Heavy Industry"
-GEN_decn_naval_investments:0 "Invest in Maritime Industry"
-GEN_decn_land_nationalization:0 "Nationalize Land"
-GEN_decn_forced_industrialization:0 "Forced Industrialization"
-GEN_decn_agrarian_reform:0 "Agrarian Reform"
-GEN_decn_invite_foreign_investors:0 "Invite Foreign Investors"
-
-GEN_decn_civil_development:0 "Civil Development"
-GEN_decn_invest_in_education:0 "Invest in Education"
-
-GEN_decn_anti_war_propaganda:0 "Anti-War Propaganda"
-
 GEN_decn_abandon_noninterference:0 "Abandon Noninterference"
 GEN_decn_victory_over_russia:0 "Victory Over [SOV.GetName]"
-GEN_decn_liberia_request_british_colonies:0 "Request British Colonies"
-GEN_decn_liberia_request_french_colonies:0 "Request French Colonies"
-
-GEN_decn_siam_request_siam_formable:0 "Request Greater Siamese Lands"
-GEN_decn_siam_demand_siam_formable:0 "Demand Greater Siamese Lands"
-GEN_decn_siam_demand_vietnam:0 "Demand Vietnam"
-GEN_decn_siam_demand_singapore:0 "Demand Singapore"
-GEN_decn_siam_demand_burma:0 "Demand Burma"
-GEN_decn_siam_demand_yunnan:0 "Demand Yunnan"
-GEN_decn_siam_request_vietnam:0 "Purchase Vietnam"
-GEN_decn_siam_request_singapore:0 "Purchase Singapore"
 
 GEN_decn_core_vietnam:0 "Integrate Vietnam"
 GEN_decn_core_singapore:0 "Integrate Singapore"
 GEN_decn_core_burma:0 "Integrate Burma"
 GEN_decn_core_yunnan:0 "Integrate Yunan"
 
-GEN_decn_indonesia_revolt:0 "Spread the Revolution to Indonesia"
-GEN_decn_raj_revolt:0 "Spread the Revolution to the Brittish Raj"
-GEN_decn_philippine_revolt:0 "Spread the Revolution to the Philippines"
-
-GEN_decn_defensive_prep:0 "Defensive Preparations"
-GEN_decn_hold_weapons_trials:0 "Hold Weapons Trials"
-GEN_decn_hold_aircraft_trials:0 "Hold Aircraft Trials"
-GEN_decn_hold_naval_vessel_trials:0 "Hold Naval Vessel Trials"
-GEN_decn_hold_armor_trials:0 "Hold Armor Trials"
-GEN_decn_support_company_training:0 "Support Company Training"
-GEN_decn_war_games:0 "War Game Likely Scenarios"
-GEN_decn_naval_operations:0 "Draw Up Naval Operations"
-GEN_decn_fly_sorties:0 "Fly Practice Sorties"
-
-GEN_decn_send_master_rifles:0 "Send [OVERLORD.GetName] Rifles"
-
-GEN_decn_raid_master_supply:0 "Raid [OVERLORD.GetAdjective] Supply Hubs"
-GEN_decn_disappear_problematic_administration:0 "Disappear Problematic Administration"
-GEN_decn_rally_the_masses:0 "Rally the Masses"
-GEN_decn_steal_master_vehicles:0 "Raid [OVERLORD.GetAdjective] Vehicle Hubs"
-GEN_decn_declare_independence:0 "Declare Independence"
-
-GEN_decn_caucus_influence_georgia:0 "Influence Georgia"
-GEN_decn_caucus_influence_armenia:0 "Influence Armenia"
-GEN_decn_caucus_influence_azerbaijan:0 "Influence Azerbaijan"
-GEN_decn_caucus_annex_georgia:0 "Integrate Georgia"
-GEN_decn_caucus_annex_armenia:0 "Integrate Armenia"
-GEN_decn_caucus_annex_azerbaijan:0 "Integrate Azerbaijan"
 GEN_decn_release_iranian_kurdistan:0 "Return Iranian Kurdistan"
 GEN_decn_release_iraqi_kurdistan:0 "Return Iraqi Kurdistan"
 GEN_decn_release_syrian_kurdistan:0 "Return Syrian Kurdistan"
-GEN_decn_split_turkey:0 "Split Turkey"
 
 ##########BEGIN IDEAS##########
 GEN_idea_land_focus:0 "Land Focus"
